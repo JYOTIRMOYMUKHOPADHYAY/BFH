@@ -4,7 +4,7 @@
 
 .parent {
   width: 100%;
-  height: 100vh;
+  height: 75vh;
   background-image: url(../../../assets/about_us_background.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -63,42 +63,47 @@
 
 .header {
   font-family: "Rubik", sans-serif;
-  font-size: 50px;
+  font-size: 3vw;
   font-weight: 900;
+  min-width: 15px;
   text-shadow: 3px 4px #546572;
   margin-bottom: 15px;
-
-  @media only screen and (max-width: 650px) {
+  // @media only screen and (max-width: 650px) {
+  //   font-size: 30px;
+  // }
+  @media only screen and (max-width: 1000px) {
     font-size: 30px;
   }
 }
 
 .header_body {
-  font-size: 3vh;
-  line-height: 35px;
+  font-size: 2vh;
+  // line-height: 35px;
   color: white;
   margin-bottom: 30px;
   font-weight: 400;
 
-  @media only screen and (max-width: 1075px) {
+  @media only screen and (max-width: 1360px) and (min-width: 1150px) {
+    font-size: 1.5vw;
+    // line-height: 30px;
+  }
+
+  @media only screen and (max-width: 1150px) and (min-width: 931px) {
     font-size: 2vh;
-    line-height: 30px;
   }
 
-  @media only screen and (max-width: 740px) {
-    font-size: 1.5vh;
+  @media only screen and (max-width: 930px) and (min-width: 840px) {
+    font-size: 1.9vh;
   }
 
-  @media only screen and (max-width: 650px) {
-    font-size: 2vh;
-    margin-bottom: 15px;
+  @media only screen and (max-width: 841px) and (min-width: 650px) {
+    font-size: 1.7vh;
   }
-
-  @media only screen and (max-width: 350px) {
-    font-size: 1.8vh;
-    margin-bottom: 15px;
-    line-height: 20px;
-  }
+  // @media only screen and (max-width: 350px) {
+  //   font-size: 1.8vh;
+  //   margin-bottom: 15px;
+  //   line-height: 20px;
+  // }
 }
 
 .core_values_header {
@@ -108,11 +113,14 @@
 }
 
 .core_values_header_name {
-  font-size: 4vw;
+  font-size: 55px;
   font-weight: 600;
   color: #604ca4;
   text-shadow: 3px 3px 4px #968c8c;
-
+  @media only screen and (max-width: 1360px) and (min-width: 651px) {
+    font-size: 4vw;
+    // line-height: 30px;
+  }
   @media only screen and (max-width: 650px) {
     font-size: 30px;
     margin-bottom: 15px;
@@ -120,13 +128,16 @@
 }
 
 .core_values_tag_line {
-  font-size: 4vw;
+  font-size: 50px;
   padding: 2px;
   text-decoration: underline;
   text-underline-offset: 2px;
   color: #604ca4;
   text-shadow: 3px 3px 4px #968c8c;
-
+  @media only screen and (max-width: 1360px) and (min-width: 651px) {
+    font-size: 4vw;
+    // line-height: 30px;
+  }
   @media only screen and (max-width: 650px) {
     font-size: 15px;
     margin-bottom: 15px;
@@ -176,10 +187,13 @@
 }
 
 .core_values_body_text h3 {
-  font-size: 2vw;
+  font-size: 30px;
   font-weight: 700;
   color: #595a5c;
-
+  @media only screen and (max-width: 1360px) and (min-width: 701px) {
+    font-size: 2vw;
+    // line-height: 30px;
+  }
   @media only screen and (max-width: 700px) {
     font-size: 6vw;
   }
@@ -188,9 +202,12 @@
 
 .core_values_body_text,
 p {
-  font-size: 1.5vw;
+  font-size: 25px;
   color: #6e6a66;
-
+  @media only screen and (max-width: 1360px) and (min-width: 701px) {
+    font-size: 1.5vw;
+    // line-height: 30px;
+  }
   @media only screen and (max-width: 700px) {
     font-size: 4vw;
   }
@@ -224,7 +241,7 @@ p {
 }
 
 .founder_details{
-  width: 30%;
+  width: 40%;
   box-shadow: 1px 1px 6px 0px;
 
   @media only screen and (max-width: 992px) {
@@ -236,9 +253,11 @@ p {
 }
 .founder_details_section {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+
   @media only screen and (max-width: 700px) {
     flex-wrap: wrap;
+    justify-content: center;
   }
 }
 .founder_details_text{
