@@ -2,13 +2,19 @@
     display: flex;
     justify-content: space-around;
     // align-items: center;
-    height: 100vh;
-    margin-top: 12px;
+
+    padding-top: 80px;
+    @media only screen and (min-width: 1200px) {
+      height: 100vh;
+  }
     @media only screen and (max-width: 1200px) and (min-width: 770px) {
         height: 80vh;
     }
     @media only screen and (max-width: 770px) {
        flex-wrap: wrap;
+       padding-top: 60px;
+      //  margin-top: 200px;
+       
     }
 
 
@@ -33,7 +39,7 @@
     width: 50%;
     @media only screen and (max-width: 770px) {
         width: 100%;
-        height: 50%;
+        height: 60vh;
         margin-top: 20px;
      }
     
@@ -55,7 +61,7 @@
 .first_column_image_one{
     height: 45%;
     // width: 20%;
-    background-image: url(../../../assets/partner_1.png);
+    // background-image: url(../../../assets/partner_1.png);
     background-position: center;
     background-size: cover;
     box-shadow: 0px 2px 11px 0px #604ca4;
@@ -63,7 +69,7 @@
 .first_column_image_two{
     height: 50%;
     // width: 20%;
-    background-image: url(../../../assets/partner_2.png);
+    // background-image: url(../../../assets/partner_2.png);
     background-position: center;
     background-size: cover;
     flex-grow: 1;
@@ -73,7 +79,7 @@
 .secoend_column_image_one{
     height: 50%;
     // width: 20%;
-    background-image: url(../../../assets/partner_3.png);
+    // background-image: url(../../../assets/partner_3.png);
     background-position: center;
     background-size: cover;
     box-shadow: 0px 2px 11px 0px #604ca4;
@@ -81,14 +87,14 @@
 .secoend_column_image_two{
     height: 45%;
     // width: 20%;
-    background-image: url(../../../assets/partner_4.png);
+    // background-image: url(../../../assets/partner_4.png);
     background-position: center;
     background-size: cover;
     flex-grow: 1;
     margin-top: 10px;
     box-shadow: 0px 2px 11px 0px #604ca4;
 } 
-.partner_text_side .header_text{
+ .header_text{
     font-size: 50px;
     font-family: "Rubik", sans-serif;
     font-weight: 900;
@@ -99,20 +105,20 @@
         // line-height: 30px;
       }
       @media only screen and (max-width: 770px) and (min-width: 550px)  {
-        font-size: 4.5vw;
+        font-size: 4.8vw;
         // line-height: 30px;
       }
       @media only screen and (max-width: 550px) and (min-width: 400px)  {
-        font-size: 5.6vw;
+        font-size: 5.9vw;
         // line-height: 30px;
       }
       @media only screen and (max-width: 400px) {
-        font-size: 6.2vw;
+        font-size: 7vw;
         // line-height: 30px;
       }
 }
 .partner_text_side .body_text_partner{
-    font-size: 20px;
+    font-size: 25px;
     font-family: "Rubik", sans-serif;
     // font-weight: 900;
     // text-shadow: 3px 4px #d2cece;
@@ -126,15 +132,69 @@
         // line-height: 30px;
       }
       @media only screen and (max-width: 850px) and (min-width: 650px)  {
-        font-size: 2vw;
+        font-size: 2.1vw;
         // line-height: 30px;
       }
       @media only screen and (max-width: 650px) and (min-width: 150px){
-        font-size: 3vw;
+        font-size: 3.2vw;
         // line-height: 30px;
       }
       @media only screen and (max-width: 450px){
-        font-size: 3.5vw;
+        font-size: 4vw;
         // line-height: 30px;
       }
 }
+.menu{
+  display: flex;
+  // width: 100%;
+  height: 80vh;
+}
+
+.menu_item{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  align-items: center;
+  // @media only screen and (max-width: 650px) and (min-width: 600px){
+  //   margin-top: 250px;
+  // }
+  // @media only screen and (max-width: 600px) and (min-width: 500px){
+  //   margin-top: 34vw;
+  // }
+  // @media only screen and (max-width: 500px) and (min-width: 450px){
+  //   margin-top: 28vw;
+  // }
+  // @media only screen and (max-width: 450px) and (min-width: 400px){
+  //   margin-top: 55vw;
+  // }
+  // @media only screen and (max-width: 400px) and (min-width: 350px){
+  //   margin-top: 77vw;
+  // }
+  @media only screen and (max-width: 750px){
+    margin-top: 55px;
+  }
+}
+.menu_one{
+  box-shadow: 0px 2px 11px 0px #604ca4;
+}
+.image_menu{
+  width: 80vw;
+ }
+@media only screen and (max-width: 600px) {
+ .image_menu{
+  width: 95vw;
+ }
+}
+// .menu_one{
+// width: 100%;
+// height: 80vh;
+// background-image: url(../../../assets/menu_one.png);
+// background-position: center;
+//     background-size: contain;
+//     background-repeat: no-repeat;
+// }
+// .menu_two{
+//   width: 40%;
+//   }

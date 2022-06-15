@@ -1,51 +1,43 @@
+<app-navbar></app-navbar>
 <div class="partner">
     <div class="partner_text_side">
-        <h1 class="header_text">Uncle Peter's Pancakes</h1>
+        <h1 class="header_text">{{this.data['HEADER']}}</h1>
         <p class="body_text_partner">
-            Pancakes have always been associated with happin ess.
-            Whether you are happy or sad or ju st hu n gr y, pancakes
-            wil l be your best friend. So righ tly it is often describ ed as "The sin gl e most in fluetial food of all
-            tim e". And that is
-            what gave bir th to Un cle Peter's Pancakes.
+            {{this.data['PARAGRAPH_ONE']}}
         </p>
         <p class="body_text_partner">
-            A dedi cated brand wil lin g to brin g pancakes to every Indian home. With the gr owin g trend of pancake
-            consum ption in In di a and the less amoun t of options
-            avail able in the market, we have set out on a misson to be In di a' s Nu m ber 1 choice for a pancake
-            brand.
+            {{this.data['PARAGRAPH_TWO']}}
         </p>
         <p class="body_text_partner">
-            Un cle Peter's Pancakes has put in a lot of hard work in
-            developin g a menu whi ch not onl y has varities but dr ives forward thr ough in n ovation. We are proud to
-            have got in certain varities that are nowhere avail able in In di a.
+            {{this.data['PARAGRAPH_THREE']}}
         </p>
         <p class="body_text_partner">
-            Wait no more! Experience us today!
+            {{this.data['PARAGRAPH_FOUR']}}
         </p>
-        <hr class="p-2"/>
+        <hr class="p-2" />
     </div>
     <div class="partner_image_side">
         <div class="image_column image_first_column">
-            <div class="first_column_image_one">
+            <div class="first_column_image_one" [style.background-image]="'url(/img/' + this.data['IMAGE_ONE'] + ')'">
                 <div class="card">
-                    <!-- <img src="../../../assets/partner_1.png" class="card-img-top" alt="..."> -->
-                  </div>
-                <!-- <img src="../../../assets/partner_1.png" width="500" /> -->
+                </div>
             </div>
-            <div class="first_column_image_two">
+            <div class="first_column_image_two" [style.background-image]="'url(/img/' + this.data['IMAGE_TWO'] + ')'">
                 <div class="card">
-                    <!-- <img src="../../../assets/partner_2.png" class="card-img-top" alt="..."> -->
-                  </div>
-                <!-- <img src="../../../assets/partner_2.png" width="500"/> -->
+                </div>
             </div>
         </div>
         <div class="image_column image_secoend_column">
-            <div class="secoend_column_image_one">
-                <!-- <img src="../../../assets/partner_1.png" width="500"/> -->
+            <div class="secoend_column_image_one" [style.background-image]="'url(/img/' + this.data['IMAGE_THREE'] + ')'">
             </div>
-            <div class="secoend_column_image_two">
-                <!-- <img src="../../../assets/partner_2.png" width="500"/> -->
+            <div class="secoend_column_image_two" [style.background-image]="'url(/img/' + this.data['IMAGE_FOUR'] + ')'">
             </div>
         </div>
+    </div>
+</div>
+<div class="menu_item">
+    <!-- <h2 class="header_text" style="margin-bottom: 20px;"><b>OUR MENU</b></h2> -->
+    <div class="menu_one">
+        <img class="image_menu" [src]="this.data['MENU_IMAGE']" />
     </div>
 </div>

@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { HeroResolver } from './commonServices/resolver';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { BrandsComponent } from './components/brands/brands.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
@@ -9,7 +10,9 @@ import { OurPartenerComponent } from './components/our-partener/our-partener.com
 const routes: Routes = [
   {path: "", component:HomeComponent},
   {path: "about-us", component:AboutUsComponent},
-  {path: "brands", component:BrandsComponent},
+  {path: "brands/:id", component:BrandsComponent, resolve: {
+    data:HeroResolver
+  }},
   {path: "partners", component:OurPartenerComponent},
   {path: "contact-us", component:ContactUsComponent},
   {path: "**", redirectTo:""}
@@ -18,6 +21,7 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
+  providers: [HeroResolver]
 })
 export class AppRoutingModule { }
