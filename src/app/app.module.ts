@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -9,7 +9,10 @@ import { BrandsComponent } from './components/brands/brands.component';
 import { OurPartenerComponent } from './components/our-partener/our-partener.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { NavbarComponent } from './commonComponent/navbar/navbar.component';
-
+import { HashLocationStrategy, LocationStrategy  } from '@angular/common';
+import { FooterComponent } from './commonComponent/footer/footer.component';
+import { NgxTimelineAlbeModule } from 'ngx-timeline-albe';
+import { ViewWebsiteButtonComponent } from './view-website-button/view-website-button.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,13 +21,19 @@ import { NavbarComponent } from './commonComponent/navbar/navbar.component';
     BrandsComponent,
     OurPartenerComponent,
     ContactUsComponent,
-    NavbarComponent
+    NavbarComponent,
+    FooterComponent,
+    ViewWebsiteButtonComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxTimelineAlbeModule 
   ],
-  providers: [],
+  providers: [{provide : LocationStrategy , useClass: HashLocationStrategy}],
+  schemas: [
+    CUSTOM_ELEMENTS_SCHEMA
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

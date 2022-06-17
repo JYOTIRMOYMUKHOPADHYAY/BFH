@@ -14,7 +14,9 @@
         <p class="body_text_partner">
             {{this.data['PARAGRAPH_FOUR']}}
         </p>
-        <hr class="p-2" />
+        <div>
+          <app-view-website-button></app-view-website-button>
+        </div>
     </div>
     <div class="partner_image_side">
         <div class="image_column image_first_column">
@@ -41,3 +43,5 @@
         <img class="image_menu" [src]="this.data['MENU_IMAGE']" />
     </div>
 </div>
+
+<app-footer></app-footer>

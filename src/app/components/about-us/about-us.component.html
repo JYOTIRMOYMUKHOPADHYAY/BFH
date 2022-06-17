@@ -1,4 +1,3 @@
-
 <app-navbar></app-navbar>
 
 <div class="main_div">
@@ -93,8 +92,10 @@
                     <div class="card founder_card" style="">
                         <img src="../../../assets/1.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <p class="card-text founder_details_text">A sweet tooth by nature, Akashdeep was looking to start his own brand soon
-                                after completing his masters in biotechnology. Born with a knack of experimenting, Akashdeep
+                            <p class="card-text founder_details_text">A sweet tooth by nature, Akashdeep was looking to
+                                start his own brand soon
+                                after completing his masters in biotechnology. Born with a knack of experimenting,
+                                Akashdeep
                                 adds his value in making Uncle Peter’s Pancakes a unique and innovative brand!</p>
                         </div>
                     </div>
@@ -103,9 +104,12 @@
                     <div class="card founder_card" style="">
                         <img src="../../../assets/2.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <p class="card-text founder_details_text">A foodie by birth, an engineer by profession! Sundeep pursued his passion
-                                for food soon after completing his graduation from BITS Pilani. Sundeep holds multiple years
-                                of experience and expertise with the food industry and acts as the backbone to Uncle Peter’s
+                            <p class="card-text founder_details_text">A foodie by birth, an engineer by profession!
+                                Sundeep pursued his passion
+                                for food soon after completing his graduation from BITS Pilani. Sundeep holds multiple
+                                years
+                                of experience and expertise with the food industry and acts as the backbone to Uncle
+                                Peter’s
                                 Pancakes!</p>
                         </div>
                     </div>
@@ -113,23 +117,16 @@
             </div>
         </div>
     </div>
-    <div class="core_values_body pt-5">
-        <div class="core_values_body_one">
-            One
+    <div class="core_values_timeline pt-5 pb-5">
+        <div class="founder_header" style="width: 100%;">
+            <h1 class="p-4 text-white">Timeline</h1>
         </div>
-        <div class="core_values_body_three">
-            Three
+        <div class="core_values_body_timeline">
+            <ngx-timeline [itens]="data" [theme]="'vertical'"
+            [showMenu]="false" 
+           >
+            </ngx-timeline>
         </div>
     </div>
-    <!--   <div class="core_values_body pt-5">
-        <div class="core_values_body_one">
-            One
-        </div>
-        <div class="core_values_body_two">
-            Two
-        </div>
-        <div class="core_values_body_three">
-            Three
-        </div>
-    </div> -->
 </div>
+<app-footer></app-footer>

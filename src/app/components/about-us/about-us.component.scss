@@ -1,10 +1,6 @@
-.main_div {
-  // font-family: "Rubik", sans-serif;
-}
-
 .parent {
   width: 100%;
-  height: 82vh;
+  height: 100vh;
   background-image: url(../../../assets/about_us_background.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -62,12 +58,13 @@
 }
 
 .header {
-  font-family: "Rubik", sans-serif;
-  font-size: 3vw;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 40px;
   font-weight: 900;
   min-width: 15px;
   text-shadow: 3px 4px #546572;
   margin-bottom: 15px;
+
   // @media only screen and (max-width: 650px) {
   //   font-size: 30px;
   // }
@@ -77,33 +74,35 @@
 }
 
 .header_body {
-  font-size: 2vh;
-  // line-height: 35px;
+  font-size: 25px;
+  font-family: 'Patrick Hand', cursive;
   color: white;
   margin-bottom: 30px;
-  font-weight: 400;
+  @media only screen and (max-width: 1440px) and (min-width: 1000px) {
+    font-size: 1.9vw ;
+    // font-weight: 700;
+    line-height: 1.3;
+}
+@media only screen and (max-width: 1000px) and (min-width: 760px) {
+  font-size: 2.2vw ;
+  // font-weight: 700;
+  line-height: 1.3;
+}
+@media only screen and (max-width: 760px) and (min-width: 650px) {
+  font-size: 2.5vw ;
+  // font-weight: 700;
+  line-height: 1.3;
+}
 
-  @media only screen and (max-width: 1360px) and (min-width: 1150px) {
-    font-size: 1.5vw;
-    // line-height: 30px;
-  }
-
-  @media only screen and (max-width: 1150px) and (min-width: 931px) {
-    font-size: 2vh;
-  }
-
-  @media only screen and (max-width: 930px) and (min-width: 840px) {
-    font-size: 1.9vh;
-  }
-
-  @media only screen and (max-width: 841px) and (min-width: 650px) {
-    font-size: 1.7vh;
-  }
-  // @media only screen and (max-width: 350px) {
-  //   font-size: 1.8vh;
-  //   margin-bottom: 15px;
-  //   line-height: 20px;
-  // }
+@media only screen and (max-width: 650px) and (min-width: 420px) {
+  font-size: 4vw ;
+}
+@media only screen and (max-width: 420px) and (min-width: 380px) {
+  font-size: 4.2vw ;
+}
+@media only screen and (max-width: 420px) {
+    font-size: 4vw;
+}
 }
 
 .core_values_header {
@@ -116,11 +115,14 @@
   font-size: 55px;
   font-weight: 600;
   color: #604ca4;
+  font-family: 'Patrick Hand', cursive;
   text-shadow: 3px 3px 4px #968c8c;
+
   @media only screen and (max-width: 1360px) and (min-width: 651px) {
     font-size: 4vw;
     // line-height: 30px;
   }
+
   @media only screen and (max-width: 650px) {
     font-size: 30px;
     margin-bottom: 15px;
@@ -134,10 +136,13 @@
   text-underline-offset: 2px;
   color: #604ca4;
   text-shadow: 3px 3px 4px #968c8c;
+  font-family: 'Patrick Hand', cursive;
+
   @media only screen and (max-width: 1360px) and (min-width: 651px) {
     font-size: 4vw;
     // line-height: 30px;
   }
+
   @media only screen and (max-width: 650px) {
     font-size: 15px;
     margin-bottom: 15px;
@@ -180,7 +185,7 @@
   font-size: 2.5vw;
   color: #604ca4;
   font-weight: bold;
-
+  
   @media only screen and (max-width: 700px) {
     font-size: 8vw;
   }
@@ -190,10 +195,12 @@
   font-size: 30px;
   font-weight: 700;
   color: #595a5c;
+  font-family: 'Patrick Hand', cursive;
   @media only screen and (max-width: 1360px) and (min-width: 701px) {
     font-size: 2vw;
     // line-height: 30px;
   }
+
   @media only screen and (max-width: 700px) {
     font-size: 6vw;
   }
@@ -204,10 +211,12 @@
 p {
   font-size: 25px;
   color: #6e6a66;
+  font-family: 'Patrick Hand', cursive;
   @media only screen and (max-width: 1360px) and (min-width: 701px) {
-    font-size: 1.5vw;
+    font-size: 2vw;
     // line-height: 30px;
   }
+
   @media only screen and (max-width: 700px) {
     font-size: 4vw;
   }
@@ -240,17 +249,19 @@ p {
   }
 }
 
-.founder_details{
+.founder_details {
   width: 40%;
   box-shadow: 1px 1px 6px 0px;
 
   @media only screen and (max-width: 992px) {
     width: 45%;
   }
+
   @media only screen and (max-width: 700px) {
     width: 80%;
   }
 }
+
 .founder_details_section {
   display: flex;
   justify-content: space-between;
@@ -260,10 +271,139 @@ p {
     justify-content: center;
   }
 }
-.founder_details_text{
+
+.founder_details_text {
   text-align: center;
 }
-.founder_card{
+
+.founder_card {
   height: 100%;
   border-radius: 0px;
+}
+
+:host ::ng-deep #timeline-albe.vertical section .item .badge {
+  display: flex !important;
+  z-index: 500;
+}
+
+:host ::ng-deep #timeline-albe.vertical section .item .badge span {
+  display: none
+}
+
+:host ::ng-deep #timeline-albe.vertical section .item article:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  top: 39px;
+  right: -94px;
+  border-color: transparent #fbfbfd transparent #ea705b;
+  border-style: solid;
+  border-width: 0px 1px 0px 92px;
+
+  @media screen and (max-width: 1074px) {
+    right: -64px;
+    border-width: 0px 1px 0px 63px;
+  }
+
+  @media screen and (max-width: 768px) {
+    right: 0px;
+    left: -23px;
+    border-width: 0px 1px 0px 23px;
+  }
+}
+
+:host ::ng-deep #timeline-albe.vertical section .item article {
+  width: 40%;
+  text-align: left;
+
+  @media screen and (max-width: 768px) {
+    width: 70%;
+  }
+}
+
+:host ::ng-deep #timeline-albe.vertical section .item article.inverted:after {
+  left: -94px;
+  height: 3px;
+  border-width: 0px 0px 0px 92px;
+  border-color: transparent #fbfbfd transparent #1f69e6;
+
+  @media screen and (max-width: 1074px) {
+    left: -64px;
+    border-width: 0px 1px 0px 63px;
+  }
+
+  @media screen and (max-width: 768px) {
+    right: 0px;
+    left: -23px;
+    border-width: 0px 1px 0px 23px;
+  }
+
+
+}
+
+:host ::ng-deep #timeline-albe.vertical section .item article.inverted {
+  @media screen and (max-width: 768px) {
+    float: left
+  }
+}
+
+:host ::ng-deep #timeline-albe.vertical section .item .badge.last {
+  display: none !important;
+}
+
+:host ::ng-deep h5,
+.h5 {
+  font-weight: 900;
+  font-size: 15px;
+
+}
+
+:host ::ng-deep #timeline-albe.vertical section .item article .body {
+  padding: 20px 20px;
+}
+
+:host ::ng-deep #timeline-albe.vertical section .item article .body span {
+  display: none;
+}
+
+
+:host ::ng-deep #timeline-albe.vertical section header[class*=group] {
+  background: #604ca4;
+}
+
+:host ::ng-deep #timeline-albe.vertical section .item article .body h5 {
+  color: #604ca4;
+  font-size: 20px;
+}
+
+:host ::ng-deep #timeline-albe.vertical section .item .inverted .body h5 {
+  color: #604ca4;
+  font-size: 20px;
+}
+
+:host ::ng-deep .atag-styleRemove {
+  color: #604ca4 !important;
+}
+
+:host ::ng-deep .atag-styleRemove_two {
+  color: #604ca4 !important;
+}
+
+.core_values_body_timeline {
+  @media only screen and (max-width: 1400px) and (min-width: 650px) {
+    width: 80%;
+  }
+}
+
+.core_values_timeline {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 30px 0px 30px;
+
+  @media only screen and (max-width: 700px) {
+    flex-direction: column;
+  }
 }
