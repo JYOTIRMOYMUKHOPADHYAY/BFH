@@ -1,12 +1,8 @@
-<nav class="navbar navbar-expand-lg navbar-light p-0" style="font-family: 'Patrick Hand', cursive;">
+<nav class="navbar navbar-expand-lg navbar-light p-0" style="font-family: 'Raleway', sans-serif;">
     <div class="container-fluid">
-        <!-- class="ripple" -->
-        <!-- <button class="navbar-toggler mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button> -->
-        <button class="button-36 navbar-toggler" role="button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="button-36 navbar-toggler" role="button" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
             <!-- <i class="fa-duotone fa-bars"></i> -->
             <img src="../../../assets/logos/icons8-menu-blue-ui/icons8-menu-80.svg" />
         </button>
@@ -14,16 +10,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" routerLink="/">HOME</a>
+                    <a class="nav-link" [ngClass]="{'active' : home}" aria-current="page" routerLink="/">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="/about-us">ABOUT US</a>
+                    <a class="nav-link" [ngClass]="{'active' : aboutUsActive}" routerLink="/about-us">ABOUT US</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="/partners">BECAME OUR PARTNER</a>
+                    <a class="nav-link" [ngClass]="{'active' : partnersActive}" routerLink="/partners">BECAME OUR PARTNER</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link dropdown-toggle" [ngClass]="{'active' : brandsActive}" href="#" id="navbarDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false" style="text-align: center;">
                         BRANDS
                     </a>
@@ -38,7 +34,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="/contact-us">CONTACT US</a>
+                    <a class="nav-link" [ngClass]="{'active' : contactusActive}" routerLink="/contact-us">CONTACT US</a>
                 </li>
             </ul>
         </div>

@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 .home_brand_parent {
     padding: 16px;
     display: flex;
@@ -9,7 +8,7 @@
 }
 
 .home_background_image {
-    height: 100vh;
+    height: 970px;
     background-image: url(../../../assets/home_background.png);
     background-position: center;
     background-size: cover;
@@ -18,135 +17,439 @@
     align-items: center;
 
     @media only screen and (max-width: 900px) {
-        height: 80vh;
+        height: 970px;
     }
 
     @media only screen and (max-width: 650px) {
-        height: 100vh;
+        height: 90vh;
+    }
+}
+
+.home_background_image_chainama {
+    height: 970px;
+    background-image: url(../../../assets/background_chainama.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media only screen and (max-width: 900px) {
+        height: 970px;
+    }
+
+    @media only screen and (max-width: 650px) {
+        height: 90vh;
     }
 }
 
 .home_page_box {
     height: 60%;
-    background-color: #604ca4;
-    width: 60%;
+    background-color: #604ca4ed;
+    width: 70%;
     border-radius: 20% 0px 0px 20%;
     border: 1px solid #604ca4;
-    box-shadow: 1px 14px 20px 0px;
+    // box-shadow: 1px 14px 20px 0px;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
 
-    @media only screen and (max-width: 1440px) and (min-width: 650px) {
-        border-radius: 35% 0px 0px 35%;
+    @media only screen and (max-width: 1140px) and (min-width: 650px) {
+        border-radius: 25% 0px 0px 25%;
     }
 
-    @media only screen and (max-width: 650px) {
+    @media only screen and (max-width: 800px) {
         width: 96%;
         justify-content: center;
         text-align: center;
+    }
+
+    @media only screen and (max-width: 650px) {
+        height: 50%;
+    }
+}
+
+.home_page_box_chainaama {
+    height: 60%;
+    background-color: #604ca4ed;
+    width: 70%;
+    border-radius: 30% 0px 0px 30%;
+    border: 1px solid #604ca4;
+    // box-shadow: 1px 14px 20px 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    @media only screen and (max-width: 1140px) and (min-width: 650px) {
+        border-radius: 25% 0px 0px 25%;
+    }
+
+    @media only screen and (max-width: 800px) {
+        width: 96%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    @media only screen and (max-width: 650px) {
+        height: 50%;
     }
 }
 
 .home_page_img {
     position: absolute;
     top: 0;
-    margin-left: 32vw;
-    margin-top: 26vh;
+    margin-left: 20vw;
+    margin-top: 200px;
     max-width: 600px;
-    width: 25vw;
+    width: 570px;
 
-    @media only screen and (max-width: 1800px) and (min-width: 1440px) {
-        margin-top: 27vh;
-        width: 420px;
-        margin-left: 31vw;
+    @media screen and (max-width: 1440px) and (min-width: 1024px) {
+        margin-left: 15vw;
+        margin-top: 240px;
+        width: 500px;
     }
 
-    @media only screen and (max-width: 1440px) and (min-width: 1150px) {
-        margin-left: 30vw;
-        margin-top: 30vh;
-        width: 31vw;
+    @media only screen and (max-width: 1040px) and (min-width: 800px) {
+        margin-left: 4vw;
+        margin-top: 239px;
+        width: 500px;
     }
 
-    @media only screen and (max-width: 1150px) and (min-width: 900px) {
-        margin-left: 26vw;
-        margin-top: 29vh;
-        width: 40vw;
-        // width: 400px;
-    }
-
-    @media only screen and (max-width: 900px) and (min-width: 750px) {
-        margin-left: 21vw;
-        margin-top: 24vh;
-        width: 334px;
-    }
-
-    @media only screen and (max-width: 750px) and (min-width: 650px) {
-        margin-left: 22vw;
-        margin-top: 26vh;
-        width: 300px;
-    }
-
-    @media only screen and (max-width: 650px) {
+    @media only screen and (max-width: 800px) {
         display: none;
     }
 }
 
-.home_page_text {
-    margin-right: 15px;
-    @media only screen and (min-width: 1150px) {
-        width: 55%;
-    }
-    @media only screen and (max-width: 650px) {
-        margin-right: 0px;
+.header_text_tagline {
+    font-size: 2vw;
+
+    @media only screen and (max-width: 800px) {
+        font-size: 4vw;
     }
 }
 
-.header_text {
-    font-size: 80px;
-    font-weight: 800;
-    color: white;
-    font-family: 'Patrick Hand', cursive;
-    line-height: 1.5;
+.home_page_box_chainaama .home_page_text {
 
-    @media only screen and (min-width: 1600px) {
-        padding-right: 50px;
+    @media only screen and (max-width: 1140px) and (min-width: 1024px) {
+        width: calc(100% - 343px);
     }
 
-    @media only screen and (max-width: 1440px) and (min-width: 1270px) {
-        font-size: 5vw;
-        // font-weight: 700;
-        line-height: 1.8;
+    @media only screen and (max-width: 1024px) and (min-width: 800px) {
+        width: calc(100% - 280px);
+        // width: calc(100% - 318px);
     }
 
-    @media only screen and (max-width: 1270px) and (min-width: 900px) {
-        font-size: 4.5vw;
-        line-height: 1.8;
-        // font-weight: 700;
+}
+
+.home_page_img_chainaama {
+    position: absolute;
+    top: 0;
+    margin-left: 23vw;
+    margin-top: 1220px;
+    max-width: 600px;
+    width: 585px;
+
+    @media screen and (max-width: 1440px) and (min-width: 1024px) {
+        margin-left: 18vw;
+        margin-top: 1253px;
+        width: 530px;
     }
 
-    @media only screen and (max-width: 900px) and (min-width: 800px) {
-        font-size: 5vw;
-        line-height: 1.8;
-        // font-weight: 700;
+    @media only screen and (max-width: 1040px) and (min-width: 800px) {
+        margin-left: 10vw;
+        margin-top: 1270px;
+        width: 500px;
     }
 
-    @media only screen and (max-width: 800px) and (min-width: 730px) {
-        font-size:5vw;
-        line-height: 1.8;
-        // font-weight: 700;
+    @media only screen and (max-width: 800px) {
+        display: none;
     }
+}
 
-    @media only screen and (max-width: 730px) and (min-width: 650px) {
-        font-size: 4.5vw;
-        line-height: 1.8;
-        // font-weight: 700;
+
+// UNCLE PETERS PANCAKE
+.home_background_image_unclepeterspancake {
+    height: 970px;
+    background-image: url(../../../assets/homePage/upp_banner.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media only screen and (max-width: 900px) {
+        height: 970px;
     }
 
     @media only screen and (max-width: 650px) {
-        font-size: 10vw;
+        height: 90vh;
+    }
+}
+
+.home_page_box_unclepeters{
+    height: 60%;
+    background-color: #604ca4ed;
+    width: 70%;
+    border-radius: 30% 0px 0px 30%;
+    border: 1px solid #604ca4;
+    // box-shadow: 1px 14px 20px 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    @media only screen and (max-width: 1140px) and (min-width: 650px) {
+        border-radius: 25% 0px 0px 25%;
+    }
+
+    @media only screen and (max-width: 800px) {
+        width: 96%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    @media only screen and (max-width: 650px) {
+        height: 50%;
+    }
+}
+
+.home_page_img_unclepeters {
+    position: absolute;
+    top: 0;
+    margin-left: 20vw;
+    margin-top: 2143px;
+    max-width: 600px;
+    width: 585px;
+
+    @media screen and (max-width: 1440px) and (min-width: 1024px) {
+        margin-left: 15vw;
+    margin-top: 2170px;
+    width: 500px;
+    }
+
+    @media only screen and (max-width: 1040px) and (min-width: 800px) {
+        margin-left: 4vw;
+        margin-top: 2187px;
+        width: 500px;
+    }
+
+    @media only screen and (max-width: 800px) {
+        display: none;
+    }
+}
+// UNCLE PETERS PANCAKE END
+
+// LASSI PUB
+.home_background_image_lassipub {
+    height: 970px;
+    background-image: url(../../../assets/homePage/lassi_pub.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media only screen and (max-width: 900px) {
+        height: 970px;
+    }
+
+    @media only screen and (max-width: 650px) {
+        height: 90vh;
+    }
+}
+
+.home_page_box_unclepeters{
+    height: 60%;
+    background-color: #604ca4ed;
+    width: 70%;
+    border-radius: 30% 0px 0px 30%;
+    border: 1px solid #604ca4;
+    // box-shadow: 1px 14px 20px 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    @media only screen and (max-width: 1140px) and (min-width: 650px) {
+        border-radius: 25% 0px 0px 25%;
+    }
+
+    @media only screen and (max-width: 800px) {
+        width: 96%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    @media only screen and (max-width: 650px) {
+        height: 50%;
+    }
+}
+
+.home_page_img_lassipub {
+    position: absolute;
+    top: 0;
+    margin-left: 22vw;
+    margin-top: 3040px;
+    max-width: 600px;
+    width: 442px;
+
+    @media screen and (max-width: 1440px) and (min-width: 1024px) {
+        margin-left: 15vw;
+    margin-top: 2998px;
+    width: 475px;
+    }
+
+    @media only screen and (max-width: 1040px) and (min-width: 800px) {
+        margin-left: 6vw;
+        margin-top: 2992px;
+        width: 480px;
+    }
+
+    @media only screen and (max-width: 800px) {
+        display: none;
+    }
+}
+// LASSI PUB
+
+// BETWEEN THE BREADS
+.home_background_image_betweenthebreads {
+    height: 970px;
+    background-image: url(../../../assets/homePage/BETWEEN_THE_BREAD.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media only screen and (max-width: 900px) {
+        height: 970px;
+    }
+
+    @media only screen and (max-width: 650px) {
+        height: 90vh;
+    }
+}
+
+.home_page_box_breads{
+    height: 60%;
+    background-color: #604ca4ed;
+    width: 70%;
+    border-radius: 30% 0px 0px 30%;
+    border: 1px solid #604ca4;
+    // box-shadow: 1px 14px 20px 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    @media only screen and (max-width: 1140px) and (min-width: 650px) {
+        border-radius: 25% 0px 0px 25%;
+    }
+
+    @media only screen and (max-width: 800px) {
+        width: 96%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    @media only screen and (max-width: 650px) {
+        height: 50%;
+    }
+}
+
+.home_page_img_breads {
+    position: absolute;
+    top: 0;
+    margin-left: 9vw;
+    margin-top: 4069px;
+    /* max-width: 600px; */
+    width: 738px;
+
+    @media screen and (max-width: 1440px) and (min-width: 1024px) {
+        margin-left: 1vw;
+        margin-top: 4076px;
+        width: 696px;
+    }
+
+    @media only screen and (max-width: 1040px) and (min-width: 800px) {
+        margin-left: 0vw;
+        margin-top: 4117px;
+        width: 544px;
+    }
+
+    @media only screen and (max-width: 800px) {
+        display: none;
+    }
+}
+// BETWEEN THE BREADS
+
+
+
+.home_page_text {
+    margin-right: 15px;
+    // max-width: 760px;
+    width: calc(100% - 447px);
+
+    @media only screen and (max-width: 1440px) and (min-width: 1024px) {
+        width: calc(100% - 390px);
+    }
+
+    @media only screen and (max-width: 1024px) and (min-width: 800px) {
+
+        width: calc(100% - 318px);
+    }
+
+    @media only screen and (max-width: 800px) and (min-width: 80px) {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    // @media only screen and (max-width: 900px) and (min-width: 750px) {
+    //     width: 55%;
+    // }
+    // @media only screen and (max-width: 650px) {
+    //     margin-right: 0px;
+    // }
+}
+
+.header_text {
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+    ////font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+
+
+    @media only screen and (max-width: 1440px) and (min-width: 1024px) {
+        font-size: 5vw;
+        // font-weight: 700;
+        line-height: 1.8;
+    }
+
+    @media only screen and (max-width: 1024px) and (min-width: 800px) {
+        font-size: 5vw;
         line-height: 2;
     }
+
+    @media only screen and (max-width: 800px) and (min-width: 80px) {
+        font-size: 9vw;
+        line-height: 2;
+        // font-weight: 700;
+    }
+
+    // @media only screen and (max-width: 800px) and (min-width: 650px) {
+    //     font-size: 70px;
+    //     line-height: 2;
+    //     // font-weight: 700;
+    // }
+
+    // @media only screen and (max-width: 730px) and (min-width: 650px) {
+    //     font-size: 5.5vw;
+    //     line-height: 1.8;
+    //     // font-weight: 700;
+    // }
+
+    // @media only screen and (max-width: 650px) {
+    //     font-size: 10vw;
+    //     line-height: 2;
+    // }
 }
 
 .header_tag {
@@ -226,18 +529,13 @@
 .home_header_headertext {
     writing-mode: vertical-lr;
     color: #fff;
-    font-size: 80px;
-    font-family: 'Patrick Hand', cursive;
+    
+    ////font-family: 'Raleway', sans-serif;
     font-weight: 800;
-    @media only screen and (max-width: 1440px) and (min-width: 170px) {
-        font-size: 6vw;
-        // font-weight: 700;
-        // line-height: 1.8;
+@media only screen and (max-width: 12440px) and (min-width: 1440px) {
+    font-size: 60px;
     }
 
-    @media only screen and (max-width: 650px) {
-        font-size: 8vw;
-    }
 }
 
 @media only screen and (max-width: 650px) {
@@ -284,6 +582,7 @@
     display: flex;
     /* justify-content: center; */
     align-items: center;
+
     @media only screen and (max-width: 650px) {
         width: 90%;
     }
@@ -293,9 +592,9 @@
     font-size: 60px;
     color: #604ca4;
     font-weight: 800;
-    font-family: 'Patrick Hand', cursive;
+    ////font-family: 'Raleway', sans-serif;
 
-    @media only screen and (max-width: 1440px) and (min-width: 700px) {
+    @media only screen and (max-width: 1440px) and (min-width: 6px) {
         font-size: 5vw;
         // font-weight: 700;
         // line-height: 1.8;
@@ -309,7 +608,7 @@
 
 .home_brand_data_header_text_paragraph {
     font-size: 28px;
-    font-family: 'Patrick Hand', cursive;
+    ////font-family: 'Raleway', sans-serif;
     color: #676464;
 
     @media only screen and (max-width: 1440px) and (min-width: 1000px) {
@@ -317,11 +616,13 @@
         // font-weight: 700;
         // line-height: 1.8;
     }
+
     @media only screen and (max-width: 1000px) and (min-width: 650px) {
         font-size: 2.5vw;
         // font-weight: 700;
         // line-height: 1.8;
     }
+
     @media only screen and (max-width: 650px) {
         font-size: 4.9vw;
     }
@@ -378,7 +679,7 @@
 
 .excellent_service_text {
     width: 80%;
-    font-family: 'Patrick Hand', cursive;
+    ////font-family: 'Raleway', sans-serif;
 
     @media only screen and (max-width: 650px) {
         width: 90%;
@@ -388,10 +689,10 @@
 .header_text_excelent {
     font-size: 4vw;
     text-align: end;
-    font-family: 'Patrick Hand', cursive;
+    ////font-family: 'Raleway', sans-serif;
     font-weight: bold;
     color: #604ca4;
-    //font-family: cursive;
+    //////font-family: cursive;
 
     @media only screen and (max-width: 901px) and (min-width: 650px) {
         font-size: 6vw;
@@ -417,7 +718,7 @@
     }
 
     @media only screen and (max-width: 650px) {
-        font-size: 6vw;
+        font-size: 5vw;
     }
 }
 
@@ -505,19 +806,13 @@
 }
 
 .media_coverage_header_font {
+    // writing-mode: vertical-lr;
+    color: #fff;
     padding: 20px;
-    font-size: 75px;
-    color: white;
-    //font-family: cursive;
-
-    @media only screen and (max-width: 1440px) and (min-width: 170px) {
-        font-size: 5vw;
-        // font-weight: 700;
-        // line-height: 1.8;
-    }
-
-    @media only screen and (max-width: 650px) {
-        font-size: 8vw;
+    ////font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+@media only screen and (max-width: 12440px) and (min-width: 1440px) {
+    font-size: 60px;
     }
 }
 

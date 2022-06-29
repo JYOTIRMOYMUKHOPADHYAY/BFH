@@ -58,7 +58,7 @@
 }
 
 .header {
-  font-family: 'Patrick Hand', cursive;
+  //font-family: 'Raleway', sans-serif;
   font-size: 40px;
   font-weight: 900;
   min-width: 15px;
@@ -75,7 +75,7 @@
 
 .header_body {
   font-size: 25px;
-  font-family: 'Patrick Hand', cursive;
+  //font-family: 'Raleway', sans-serif;
   color: white;
   margin-bottom: 30px;
   @media only screen and (max-width: 1440px) and (min-width: 1000px) {
@@ -115,8 +115,8 @@
   font-size: 55px;
   font-weight: 600;
   color: #604ca4;
-  font-family: 'Patrick Hand', cursive;
-  text-shadow: 3px 3px 4px #968c8c;
+  //font-family: 'Raleway', sans-serif;
+  // text-shadow: 3px 3px 4px #968c8c;
 
   @media only screen and (max-width: 1360px) and (min-width: 651px) {
     font-size: 4vw;
@@ -135,8 +135,8 @@
   text-decoration: underline;
   text-underline-offset: 2px;
   color: #604ca4;
-  text-shadow: 3px 3px 4px #968c8c;
-  font-family: 'Patrick Hand', cursive;
+  // text-shadow: 3px 3px 4px #968c8c;
+  //font-family: 'Raleway', sans-serif;
 
   @media only screen and (max-width: 1360px) and (min-width: 651px) {
     font-size: 4vw;
@@ -195,7 +195,7 @@
   font-size: 30px;
   font-weight: 700;
   color: #595a5c;
-  font-family: 'Patrick Hand', cursive;
+  //font-family: 'Raleway', sans-serif;
   @media only screen and (max-width: 1360px) and (min-width: 701px) {
     font-size: 2vw;
     // line-height: 30px;
@@ -211,7 +211,7 @@
 p {
   font-size: 25px;
   color: #6e6a66;
-  font-family: 'Patrick Hand', cursive;
+  //font-family: 'Raleway', sans-serif;
   @media only screen and (max-width: 1360px) and (min-width: 701px) {
     font-size: 2vw;
     // line-height: 30px;

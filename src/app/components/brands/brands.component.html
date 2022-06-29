@@ -1,4 +1,27 @@
 <app-navbar></app-navbar>
+
+<div class="home_background_image">
+    <div class="home_page_image">
+       <img *ngIf="this.data['key'] == 0" class="home_page_img" src="../../../assets/homePage/{{this.data['BANNER_IMAGE']}}" />
+       <img *ngIf="this.data['key'] == 1" class="key_one"  src="../../../assets/homePage/{{this.data['BANNER_IMAGE']}}" />
+       <img *ngIf="this.data['key'] == 2" class="key_two" src="../../../assets/homePage/{{this.data['BANNER_IMAGE']}}" />
+       <img *ngIf="this.data['key'] == 3" class="home_page_img" src="../../../assets/homePage/{{this.data['BANNER_IMAGE']}}" />
+       <img *ngIf="this.data['key'] == 4" class="key_four" src="../../../assets/homePage/{{this.data['BANNER_IMAGE']}}" />
+       <img *ngIf="this.data['key'] == 5" class="home_page_img" src="../../../assets/homePage/{{this.data['BANNER_IMAGE']}}" />
+    </div>
+    <div class="home_page_box">
+       <div class="home_page_text">
+          <h2 class="header_textx">
+             {{this.data['HEADER']}}
+          </h2>
+          <h3 class="header_text_tagline" style="color: white; font-weight: 100;letter-spacing: 9px; line-height: 2;">
+            {{this.data['BANNER_TAGLINE']}}
+         </h3>
+       </div>
+    </div>
+ </div>
+
+ 
 <div class="partner">
     <div class="partner_text_side">
         <h1 class="header_text">{{this.data['HEADER']}}</h1>

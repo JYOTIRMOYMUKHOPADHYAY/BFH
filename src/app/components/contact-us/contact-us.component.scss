@@ -1,0 +1,101 @@
+.container-fluidx {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 90px;
+    height: 96vh;
+    @media only screen and (max-width: 1250px) and (min-width: 61px) {
+        flex-wrap: wrap;
+    }
+
+}
+
+.contact_us_text {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    @media only screen and (max-width: 1250px) and (min-width: 61px) {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.contact_us_text h1 {
+    font-size: 55px;
+    font-weight: 600;
+    color: #604ca4;
+    //font-family: 'Raleway', sans-serif;
+    text-shadow: 3px 3px 4px #968c8c;
+
+    @media only screen and (max-width: 1360px) and (min-width: 651px) {
+        font-size: 4vw;
+    }
+
+    @media only screen and (max-width: 650px) {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+}
+
+.contact_us_img {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-image: url(../../../assets/contact_us.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30%;
+    box-shadow: 0px 0px 16px 2px;
+    @media only screen and (max-width: 1250px) and (min-width: 651px) {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    @media only screen and (max-width: 650px) {
+        width: 90%;
+        margin-bottom: 20px;
+        height: 50%;
+        border-radius: 10%;
+    }
+}
+.contact_us_contactno{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    @media only screen and (max-width: 1250px) and (min-width: 651px) {
+        width: 30%;
+    }
+    @media only screen and (max-width: 650px) {
+        height: auto;
+        width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    }
+}
+.contact_us_img img {
+    width: 100%;
+    max-width: 775px;
+}
+.contact_info h2{
+    color: #818080;
+    @media only screen and (max-width: 1250px) and (min-width: 651px) {
+        font-size: 25px;
+    }
+    @media only screen and (max-width: 650px) {
+        font-size: 15px;
+    }
+}
+.info_one{
+    width: 50%;
+}
+.info_two{
+    width: 50%;
+}
+.info_three{
+    width: 100%;
+}

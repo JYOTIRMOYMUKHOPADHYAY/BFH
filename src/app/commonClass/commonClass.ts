@@ -1,5 +1,6 @@
 export class commonClass {
     public static UNCLEPETERS_PANCAKE = {
+        key:0,
         HEADER: "Uncle Peter's Pancakes",
         PARAGRAPH_ONE: `Pancakes have always been associated with happiness.Whether you are happy or sad or just hungry, pancakes will be your best friend. So rightly it is often described as The single 
         most in fluetial food of all time.And that is what gave birth to Uncle Peter's Pancakes.`,
@@ -14,10 +15,14 @@ export class commonClass {
         IMAGE_TWO: '../../../assets/partner_2.png',
         IMAGE_THREE: '../../../assets/partner_3.png',
         IMAGE_FOUR: '../../../assets/partner_4.png',
-        MENU_IMAGE: '../../../assets/menu_one.png'
+        MENU_IMAGE: '../../../assets/menu_one.png',
+        BANNER_IMAGE: '../../../assets/homePage/image-removebg-preview.png',
+        BANNER_TAGLINE:'THE BEST PANCAKES IN INDIA',
+        BANNER_BACKGROUND: ''
     }
 
     public static CHAINAAMA = {
+        key:1,
         HEADER: "Chainaama",
         PARAGRAPH_ONE: `Tea or Chai as we lovngl y call it has been a part of Indian
         history and culture since time im memorial. We quite
@@ -37,9 +42,13 @@ export class commonClass {
         IMAGE_TWO: '../../../assets/partner_10.png',
         IMAGE_THREE: '../../../assets/partner_11.png',
         IMAGE_FOUR: '../../../assets/partner_12.png',
-        MENU_IMAGE: '../../../assets/menu_chainaama.png'
+        MENU_IMAGE: '../../../assets/menu_chainaama.png',
+        BANNER_IMAGE: '../../../assets/homePage/chainaama.png',
+        BANNER_TAGLINE:"INDIA'S MODERN TEA STORE",
+        BANNER_BACKGROUND: ''
     }
     public static BETWEEN_THE_BREAD = {
+        key:2,
         HEADER: "Between The Bread",
         PARAGRAPH_ONE: `The market for sandwich is truly uncapped! The craze and crave for sandwiches is never ending. That's the only reason why in every corner of the country there is a sandwich brand.`,
         PARAGRAPH_TWO: `We wanted to venture into the evergreen sandwich market as well but of course we wouldn't go the traditional way. We developed an extremely premium gourmet sandwich brand which serves extremely
@@ -50,9 +59,13 @@ export class commonClass {
         IMAGE_TWO: '../../../assets/partner_16.png',
         IMAGE_THREE: '../../../assets/partner_17.png',
         IMAGE_FOUR: '../../../assets/partner_18.png',
-        MENU_IMAGE: '../../../assets/menu_between_the_breads.png'
+        MENU_IMAGE: '../../../assets/menu_between_the_breads.png',
+        BANNER_TAGLINE:"GOURMET SANDWICHES",
+        BANNER_IMAGE: '../../../assets/homePage/BETWEEN_THE_BREAD_single.png',
+        BANNER_BACKGROUND: ''
     }
     public static MAGGINATION = {
+        key:3,
         HEADER: "Maggination",
         PARAGRAPH_ONE: `Maggi is not just a food, it is an emotion! From time immemorial maggi has been a part of every Indian! A food that has no age boundary, no time, 
         no need for an occasion. Maggi has been a go to food for all Indians.`,
@@ -64,10 +77,14 @@ export class commonClass {
         IMAGE_TWO: '../../../assets/partner_20.png',
         IMAGE_THREE: '../../../assets/partner_21.png',
         IMAGE_FOUR: '../../../assets/partner_22.png',
-        MENU_IMAGE: '../../../assets/menu_maggination.png'
+        MENU_IMAGE: '../../../assets/menu_maggination.png',
+        BANNER_IMAGE: '../../../assets/homePage/image-removebg-preview.png',
+        BANNER_TAGLINE:"SOMETHING ABOUT MAGGINATION",
+        BANNER_BACKGROUND: ''
     }
 
     public static THE_LASSI_PUB = {
+        key:4,
         HEADER: "The Lassi Pub",
         PARAGRAPH_ONE: `Summers are unbeatable without Lassi. Lassi is such a simple yet tasty,healthy and fulfilling drink. It reminds us all about the childhood summers and the cool glass of lassi prepared by grandma!`,
         PARAGRAPH_TWO: `The Lassi Pub offers a large variety of Lassi made of thick and creamy curd, topped with malai which will surely have you licking your lips in no time. We have incorporated a large 
@@ -78,10 +95,14 @@ export class commonClass {
         IMAGE_TWO: '../../../assets/partner_24.png',
         IMAGE_THREE: '../../../assets/partner_25.png',
         IMAGE_FOUR: '../../../assets/partner_26.png',
-        MENU_IMAGE: '../../../assets/menu_lassi_pub.png'
+        MENU_IMAGE: '../../../assets/menu_lassi_pub.png',
+        BANNER_TAGLINE:"INDIA'S MOST LOVED LASSI",
+        BANNER_IMAGE: '../../../assets/homePage/lassi_pub_single.png',
+        BANNER_BACKGROUND: ''
     }
 
     public static SUB_SPOT = {
+        key:5,
         HEADER: "Sub Spot",
         PARAGRAPH_ONE: `Sub Spot is a brand highly loved and recommended by health enthusiasts who love a bit of healthy
          in every food. Sub Spot specializes in healthy Submarine sandwiches and Salads made out of farm fresh vegetables and meat of the highest quality.`,
@@ -94,6 +115,20 @@ export class commonClass {
         IMAGE_TWO: '../../../assets/partner_29.png',
         IMAGE_THREE: '../../../assets/partner_30.png',
         IMAGE_FOUR: '../../../assets/partner_31.png',
-        MENU_IMAGE: '../../../assets/menu_sub_spot.png'
+        MENU_IMAGE: '../../../assets/menu_sub_spot.png',
+        BANNER_TAGLINE:"SOMTHING ABOUT SUB SPOT",
+        BANNER_IMAGE: '../../../assets/homePage/image-removebg-preview.png',
+        BANNER_BACKGROUND: ''
     }
+
+    public static LOCATIONS_NAME = [
+        {NAME: 'Bengaluru'},
+        {NAME: 'Kolkata'},
+        {NAME: 'Lucknow'},
+        {NAME: 'Pondicherry'},
+        {NAME: 'Indore'},
+        {NAME: 'Delhi'},
+        {NAME: 'Goa'},
+        {NAME: 'Chennai'}
+    ]
 }

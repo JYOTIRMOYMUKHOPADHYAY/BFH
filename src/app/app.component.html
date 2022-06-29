@@ -1,16 +1,24 @@
-
-<div class="p-5" *ngIf="loading" > 
-    <div class="middle">
-        <div class="bar bar1"></div>
-        <div class="bar bar2"></div>
-        <div class="bar bar3"></div>
-        <div class="bar bar4"></div>
-        <div class="bar bar5"></div>
-        <div class="bar bar6"></div>
-        <div class="bar bar7"></div>
-        <div class="bar bar8"></div>
-      </div>
+<div class="p-5" *ngIf="loading" style="display: flex;
+justify-content: center;
+height: 100vh;
+flex-direction: column;
+align-items: center;">
+  <div class="loading" style="text-align: center;">
+    <h2 class="pb-2" style="font-size: 20px;">BOGMALO <br />
+      FOODS AND <br />
+      HOSPITALITY </h2>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
 </div>
-<div *ngIf="!loading" >
-<router-outlet></router-outlet>
+<div *ngIf="!loading">
+  <router-outlet></router-outlet>
+  <a  class="whats-app" href="https://wa.me/918617754839?text=Hello%20Team%20Uncle%20Peter%27s%20Pancakes" target="_blank" target="_blank">
+    <i class="icon fa fa-whatsapp fa-lg"></i>
+    </a>
 </div>

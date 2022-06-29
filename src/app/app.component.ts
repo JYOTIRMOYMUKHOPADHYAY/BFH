@@ -17,7 +17,7 @@ export class AppComponent {
   loading = false;
   constructor(private router: Router) {
     this.router.events.subscribe((event: Event) => {
-      console.log("d")
+      // console.log("d")
       switch (true) {
         case event instanceof NavigationStart: {
           this.loading = true;
@@ -29,7 +29,7 @@ export class AppComponent {
         case event instanceof NavigationError: {
           setTimeout(() => {
             this.loading = false;
-          }, 100);
+          }, 1000);
           break;
         }
         default: {
