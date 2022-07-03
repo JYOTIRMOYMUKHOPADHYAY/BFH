@@ -18,7 +18,15 @@ export class commonClass {
         MENU_IMAGE: '../../../assets/menu_one.png',
         BANNER_IMAGE: '../../../assets/homePage/image-removebg-preview.png',
         BANNER_TAGLINE:'THE BEST PANCAKES IN INDIA',
-        BANNER_BACKGROUND: ''
+        BANNER_BACKGROUND: '',
+        GALLARY_IMAGE_ONE: '../../../assets/gallary/c_1.png',
+        GALLARY_IMAGE_TWO: '../../../assets/gallary/c_2.png',
+        GALLARY_IMAGE_THREE: '../../../assets/gallary/c_3.png',
+        GALLARY_IMAGE_FOUR: '../../../assets/gallary/c_4.png',
+        GALLARY_IMAGE_FIVE: '../../../assets/gallary/c_5.png',
+        GALLARY_IMAGE_SIX: '../../../assets/gallary/c_6.png',
+        GALLARY_IMAGE_SEVEN: '../../../assets/gallary/c_7.png',
+        GALLARY_IMAGE_EIGHT: '../../../assets/gallary/c_8.png'
     }
 
     public static CHAINAAMA = {
@@ -45,7 +53,15 @@ export class commonClass {
         MENU_IMAGE: '../../../assets/menu_chainaama.png',
         BANNER_IMAGE: '../../../assets/homePage/chainaama.png',
         BANNER_TAGLINE:"INDIA'S MODERN TEA STORE",
-        BANNER_BACKGROUND: ''
+        BANNER_BACKGROUND: '',
+        GALLARY_IMAGE_ONE: '../../../assets/gallary/c_1.png',
+        GALLARY_IMAGE_TWO: '../../../assets/gallary/c_2.png',
+        GALLARY_IMAGE_THREE: '../../../assets/gallary/c_3.png',
+        GALLARY_IMAGE_FOUR: '../../../assets/gallary/c_4.png',
+        GALLARY_IMAGE_FIVE: '../../../assets/gallary/c_5.png',
+        GALLARY_IMAGE_SIX: '../../../assets/gallary/c_6.png',
+        GALLARY_IMAGE_SEVEN: '../../../assets/gallary/c_7.png',
+        GALLARY_IMAGE_EIGHT: '../../../assets/gallary/c_8.png'
     }
     public static BETWEEN_THE_BREAD = {
         key:2,
@@ -62,7 +78,15 @@ export class commonClass {
         MENU_IMAGE: '../../../assets/menu_between_the_breads.png',
         BANNER_TAGLINE:"GOURMET SANDWICHES",
         BANNER_IMAGE: '../../../assets/homePage/BETWEEN_THE_BREAD_single.png',
-        BANNER_BACKGROUND: ''
+        BANNER_BACKGROUND: '',
+        GALLARY_IMAGE_ONE: '../../../assets/gallary/c_1.png',
+        GALLARY_IMAGE_TWO: '../../../assets/gallary/c_2.png',
+        GALLARY_IMAGE_THREE: '../../../assets/gallary/c_3.png',
+        GALLARY_IMAGE_FOUR: '../../../assets/gallary/c_4.png',
+        GALLARY_IMAGE_FIVE: '../../../assets/gallary/c_5.png',
+        GALLARY_IMAGE_SIX: '../../../assets/gallary/c_6.png',
+        GALLARY_IMAGE_SEVEN: '../../../assets/gallary/c_7.png',
+        GALLARY_IMAGE_EIGHT: '../../../assets/gallary/c_8.png'
     }
     public static MAGGINATION = {
         key:3,
@@ -80,7 +104,15 @@ export class commonClass {
         MENU_IMAGE: '../../../assets/menu_maggination.png',
         BANNER_IMAGE: '../../../assets/homePage/image-removebg-preview.png',
         BANNER_TAGLINE:"SOMETHING ABOUT MAGGINATION",
-        BANNER_BACKGROUND: ''
+        BANNER_BACKGROUND: '',
+        GALLARY_IMAGE_ONE: '../../../assets/gallary/c_1.png',
+        GALLARY_IMAGE_TWO: '../../../assets/gallary/c_2.png',
+        GALLARY_IMAGE_THREE: '../../../assets/gallary/c_3.png',
+        GALLARY_IMAGE_FOUR: '../../../assets/gallary/c_4.png',
+        GALLARY_IMAGE_FIVE: '../../../assets/gallary/c_5.png',
+        GALLARY_IMAGE_SIX: '../../../assets/gallary/c_6.png',
+        GALLARY_IMAGE_SEVEN: '../../../assets/gallary/c_7.png',
+        GALLARY_IMAGE_EIGHT: '../../../assets/gallary/c_8.png'
     }
 
     public static THE_LASSI_PUB = {
@@ -98,7 +130,15 @@ export class commonClass {
         MENU_IMAGE: '../../../assets/menu_lassi_pub.png',
         BANNER_TAGLINE:"INDIA'S MOST LOVED LASSI",
         BANNER_IMAGE: '../../../assets/homePage/lassi_pub_single.png',
-        BANNER_BACKGROUND: ''
+        BANNER_BACKGROUND: '',
+        GALLARY_IMAGE_ONE: '../../../assets/gallary/c_1.png',
+        GALLARY_IMAGE_TWO: '../../../assets/gallary/c_2.png',
+        GALLARY_IMAGE_THREE: '../../../assets/gallary/c_3.png',
+        GALLARY_IMAGE_FOUR: '../../../assets/gallary/c_4.png',
+        GALLARY_IMAGE_FIVE: '../../../assets/gallary/c_5.png',
+        GALLARY_IMAGE_SIX: '../../../assets/gallary/c_6.png',
+        GALLARY_IMAGE_SEVEN: '../../../assets/gallary/c_7.png',
+        GALLARY_IMAGE_EIGHT: '../../../assets/gallary/c_8.png'
     }
 
     public static SUB_SPOT = {
@@ -118,7 +158,15 @@ export class commonClass {
         MENU_IMAGE: '../../../assets/menu_sub_spot.png',
         BANNER_TAGLINE:"SOMTHING ABOUT SUB SPOT",
         BANNER_IMAGE: '../../../assets/homePage/image-removebg-preview.png',
-        BANNER_BACKGROUND: ''
+        BANNER_BACKGROUND: '',
+        GALLARY_IMAGE_ONE: '../../../assets/gallary/c_1.png',
+        GALLARY_IMAGE_TWO: '../../../assets/gallary/c_2.png',
+        GALLARY_IMAGE_THREE: '../../../assets/gallary/c_3.png',
+        GALLARY_IMAGE_FOUR: '../../../assets/gallary/c_4.png',
+        GALLARY_IMAGE_FIVE: '../../../assets/gallary/c_5.png',
+        GALLARY_IMAGE_SIX: '../../../assets/gallary/c_6.png',
+        GALLARY_IMAGE_SEVEN: '../../../assets/gallary/c_7.png',
+        GALLARY_IMAGE_EIGHT: '../../../assets/gallary/c_8.png'
     }
 
     public static LOCATIONS_NAME = [
