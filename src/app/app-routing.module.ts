@@ -15,6 +15,7 @@ const routes: Routes = [
   }},
   {path: "partners", component:OurPartenerComponent},
   {path: "contact-us", component:ContactUsComponent},
+  // { path: 'customers', loadChildren: () => import('./brands/brands.module').then(m => m.BrandsModule) },
   {path: "**", redirectTo:""}
 
 ];

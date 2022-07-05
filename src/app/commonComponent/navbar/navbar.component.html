@@ -1,42 +1,93 @@
 <nav class="navbar navbar-expand-lg navbar-light p-0" style="font-family: 'Raleway', sans-serif;">
-    <div class="container-fluid">
-        <button class="button-36 navbar-toggler" role="button" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <!-- <i class="fa-duotone fa-bars"></i> -->
-            <img src="../../../assets/logos/icons8-menu-blue-ui/icons8-menu-80.svg" />
-        </button>
+  <div class="container-fluid">
+    <button class="button-36 navbar-toggler" role="button" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <!-- <i class="fa-duotone fa-bars"></i> -->
+      <img src="../../../assets/logos/icons8-menu-blue-ui/icons8-menu-80.svg" />
+    </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100">
-                <li class="nav-item">
-                    <a class="nav-link" [ngClass]="{'active' : home}" aria-current="page" routerLink="/">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" [ngClass]="{'active' : aboutUsActive}" routerLink="/about-us">ABOUT US</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" [ngClass]="{'active' : partnersActive}" routerLink="/partners">BECAME OUR PARTNER</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" [ngClass]="{'active' : brandsActive}" href="#" id="navbarDropdown" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false" style="text-align: center;">
-                        BRANDS
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" routerLink="/brands/uncle_peters_pancake">UNCLE PETER'S PANCAKES</a>
-                        </li>
-                        <li><a class="dropdown-item" routerLink="/brands/chainaama">CHAINAAMA</a></li>
-                        <li><a class="dropdown-item" routerLink="/brands/between_the_bread">BETWEEN THE BREAD</a></li>
-                        <li><a class="dropdown-item" routerLink="/brands/maggination">MAGGINATION</a> </li>
-                        <li><a class="dropdown-item" routerLink="/brands/the_lassi_pub">THE LASSI PUB</a> </li>
-                        <li><a class="dropdown-item" routerLink="/brands/sub_spot">SUB SPOT</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" [ngClass]="{'active' : contactusActive}" routerLink="/contact-us">CONTACT US</a>
-                </li>
-            </ul>
-        </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100">
+        <li class="nav-item">
+          <a class="nav-link" [ngClass]="{'active' : home}" aria-current="page" routerLink="/">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [ngClass]="{'active' : aboutUsActive}" routerLink="/about-us">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [ngClass]="{'active' : partnersActive}" routerLink="/partners">BECAME OUR PARTNER</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" [ngClass]="{'active' : brandsActive}" href="#" id="navbarDropdown"
+            role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-align: center;">
+            BRANDS
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" routerLink="/brands/uncle_peters_pancake">UNCLE PETER'S PANCAKES</a>
+            </li>
+            <li><a class="dropdown-item" routerLink="/brands/chainaama">CHAINAAMA</a></li>
+            <li><a class="dropdown-item" routerLink="/brands/between_the_bread">BETWEEN THE BREAD</a></li>
+            <li><a class="dropdown-item" routerLink="/brands/maggination">MAGGINATION</a> </li>
+            <li><a class="dropdown-item" routerLink="/brands/the_lassi_pub">THE LASSI PUB</a> </li>
+            <li><a class="dropdown-item" routerLink="/brands/sub_spot">SUB SPOT</a></li>
+            <li><a class="dropdown-item" data-bs-toggle="modal"
+              data-bs-target="#filterModal">SUB SPOT</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="cursor: pointer;" [ngClass]="{'active' : partnersActive}" data-bs-toggle="modal"
+            data-bs-target="#filterModal">CONTACT US</a>
+        </li>
+      </ul>
     </div>
+  </div>
 </nav>
+
+
+
+<div class="modal filter_modal" id="filterModal" tabindex="-1" role="dialog" aria-labelledby="filterModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content overflow-control">
+      <div class="modal-header border-0 pb-0">
+        <h3 class="modal-title pb-2" id="filterModalLabel">Get In Touch</h3>
+        <button type="button" style="all: unset;
+        cursor: pointer;font-size:40px; color: #604ca4;" class="close" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div style="overflow-y: scroll;">
+        <div class="col-12 p-3">
+
+          <video autoplay muted onloadedmetadata="this.muted = true" oncanplay="this.play()" playsinline
+            style="width: 100%; height: 100%;">
+            <source src="../../../assets/vidd.mp4" type="video/mp4" />
+            Browser not supported
+          </video>
+          <!-- <img src="images2/twentytwo.png" alt="" width="394" height="255" /> -->
+        </div>
+
+
+        <div class="p-3">
+          <div class="contact-no">
+            <div class="unit-left" style="padding-top: 7px; color: #eda407;"><span class="icon fa fa-phone"></span></div>
+            <div class="unit-body"><a class="link-phone" href="tel:+91 86177 54839" style="text-decoration: none; color: black;">+91 86177 54839</a>
+              <a class="link-phone" href="tel:+91 96864 53774" style="text-decoration: none; color: black;">+91 96864 53774</a>
+            </div>
+          </div>
+          <div class="contact-no mt-4">
+            <div class="unit-left" style="padding-top: 7px; color: #eda407;"><span class="icon fa fa-location-arrow"></span>
+            </div>
+            <div class="unit-body"><a class="link-location" href="#" style="text-decoration: none; color: black;">110, ground floor, 18th main, Indirangar, Bengaluru-560008</a></div>
+          </div>
+          <div class="contact-no mt-4 mb-5">
+            <div class="unit-left" style="padding-top: 7px; color: #eda407; "><span class="icon fa fa-envelope"></span></div>
+                              <div class="unit-body"><a class="link-email" href="mailto:#" style="text-decoration: none; color: black;">hello@unclepeterspancakes.com</a></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

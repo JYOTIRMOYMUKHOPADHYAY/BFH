@@ -19,14 +19,14 @@ export class commonClass {
         BANNER_IMAGE: '../../../assets/homePage/image-removebg-preview.png',
         BANNER_TAGLINE:'THE BEST PANCAKES IN INDIA',
         BANNER_BACKGROUND: '',
-        GALLARY_IMAGE_ONE: '../../../assets/gallary/c_1.png',
-        GALLARY_IMAGE_TWO: '../../../assets/gallary/c_2.png',
-        GALLARY_IMAGE_THREE: '../../../assets/gallary/c_3.png',
-        GALLARY_IMAGE_FOUR: '../../../assets/gallary/c_4.png',
-        GALLARY_IMAGE_FIVE: '../../../assets/gallary/c_5.png',
-        GALLARY_IMAGE_SIX: '../../../assets/gallary/c_6.png',
-        GALLARY_IMAGE_SEVEN: '../../../assets/gallary/c_7.png',
-        GALLARY_IMAGE_EIGHT: '../../../assets/gallary/c_8.png'
+        GALLARY_IMAGE_ONE: '../../../assets/gallary/up_1.png',
+        GALLARY_IMAGE_TWO: '../../../assets/gallary/up_2.png',
+        GALLARY_IMAGE_THREE: '../../../assets/gallary/up_3.png',
+        GALLARY_IMAGE_FOUR: '../../../assets/gallary/up_4.png',
+        GALLARY_IMAGE_FIVE: '../../../assets/gallary/up_5.png',
+        GALLARY_IMAGE_SIX: '../../../assets/gallary/up_6.png',
+        GALLARY_IMAGE_SEVEN: '../../../assets/gallary/up_7.png',
+        GALLARY_IMAGE_EIGHT: '../../../assets/gallary/up_8.png'
     }
 
     public static CHAINAAMA = {

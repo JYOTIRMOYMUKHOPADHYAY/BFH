@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { TimelineItem } from 'ngx-timeline-albe';
 @Component({
   selector: 'app-about-us',
   templateUrl: './about-us.component.html',
   styleUrls: ['./about-us.component.scss']
 })
-export class AboutUsComponent implements OnInit {
+export class AboutUsComponent implements OnInit, AfterViewInit {
   data: Array<TimelineItem> | String;
   constructor() { }
 
@@ -48,5 +48,7 @@ export class AboutUsComponent implements OnInit {
       ]
     }]`;
   }
-
+  ngAfterViewInit() {
+    console.log("oip")
+ }
 }

@@ -420,7 +420,7 @@
 }
 
 .header_text {
-    font-size: 90px;
+    font-size: 75px;
     font-weight: bold;
     color: white;
     ////font-family: 'Raleway', sans-serif;
@@ -542,7 +542,7 @@
     
     ////font-family: 'Raleway', sans-serif;
     font-weight: 800;
-@media only screen and (max-width: 12440px) and (min-width: 1440px) {
+@media only screen and (max-width: 12440px) and (min-width: 3000px) {
     font-size: 50px;
     }
 
@@ -599,7 +599,7 @@
 }
 
 .home_brand_data_header_text {
-    font-size: 50px;
+    // font-size: 50px;
     color: #604ca4;
     font-weight: 800;
     ////font-family: 'Raleway', sans-serif;
@@ -697,11 +697,12 @@
 }
 
 .header_text_excelent {
-    font-size: 3vw;
+    font-size: 2.5vw;
     text-align: end;
     ////font-family: 'Raleway', sans-serif;
     font-weight: bold;
     color: #604ca4;
+    margin-top: 10px;
     //////font-family: cursive;
 
     @media only screen and (max-width: 901px) and (min-width: 650px) {
@@ -716,7 +717,7 @@
 .excellent_service_text h2 {
     font-weight: bold;
     margin-bottom: 15px;
-    font-size: 50px;
+    // font-size: 50px;
     color: #343535;
 
     @media only screen and (max-width: 1440px) and (min-width: 900px) {
@@ -822,7 +823,7 @@
     ////font-family: 'Raleway', sans-serif;
     font-weight: 800;
 @media only screen and (max-width: 12440px) and (min-width: 1440px) {
-    font-size: 50px;
+    // font-size: 50px;
     }
 }
 

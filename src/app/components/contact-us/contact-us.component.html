@@ -1,23 +1,111 @@
-<app-navbar></app-navbar>
-<div class="container-fluidx">
-  <div class="contact_us_text">
-   <h1>Be a part of our team today!</h1>
-  </div>
-      <div class="contact_us_img">
-         
+
+<div class="modal filter_modal" >
+<div class="modal-dialog" role="document">
+  <div class="modal-content overflow-control" >
+    <div class="modal-header border-0 pb-0">
+      <h5 class="modal-title" id="filterModalLabel">Filter</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <div class="clearfix"></div>
+    </div>
+
+    <div style="display: flex; flex-direction: column; flex-grow: 1">
+      <div class="modal-body pt-0">
+        <div class="font_12 sub-title pb-3 mb-3 border-bottom"></div>
+        <div class="font_12 color_grey_light font_med text-uppercase mb-1">
+          FILTER BY KEYWORD
+        </div>
+
+
+        <div class="col-12 mt-4 m-0 p-0">
+          <div class="row">
+       
+
+      
+          </div>
+        </div>
+
+        <hr style="background-color: #ffffff" />
+
+        <div class="col-12 m-0 p-0">
+          <label class="text-uppercase font_12 color_grey_light font_med">CATEGORY</label>
+
+
+          <div class="clearfix"></div>
+        </div>
+
+        <div class="col-12 m-0 p-0">
+          <label class="text-uppercase font_12 color_grey_light font_med pt-4">COMPANY</label>
+
+
+          <div class="clearfix"></div>
+        </div>
+
+        <div class="col-12 m-0 p-0">
+          <label class="text-uppercase font_12 color_grey_light font_med pt-4">PRODUCT</label>
+
+
+          <div class="clearfix"></div>
+        </div>
+
+        <div class="col-12 m-0 p-0">
+          <label for="exampleDataList" class="text-uppercase font_12 color_grey_light font_med pt-4">Clinical
+            Trial</label>
+
+
+
+          <div class="clearfix"></div>
+        </div>
+
+        <hr style="background-color: #ffffff; padding-top: 1px" />
+        <div class="col-12 m-0 p-0">
+          <label class="text-uppercase font_12 color_grey_light font_med">PHASE</label>
+        </div>
+        <div class="col-12 m-0 p-0">
+          <button type="button" >
+            NAME
+          </button>
+        </div>
+
+        <hr style="background-color: #ffffff; padding-top: 1px" />
+
+        <div class="col-12 m-0 p-0">
+          <label class="text-uppercase font_12 color_grey_light font_med">PRIORITY</label>
+        </div>
+        <div class="col-12 m-0 p-0">
+          <button type="button" >
+           SOSKOSK
+          </button>
+        </div>
+
+        <hr style="background-color: #ffffff; padding-top: 1px" />
+
+        <div class="col-12 m-0 p-0">
+          <label class="text-uppercase font_12 color_grey_light font_med">STATUS</label>
+        </div>
+        <div class="col-12 m-0 p-0">
+          <button type="button" >
+           SOMENAME
+          </button>
+        </div>
       </div>
-      <div class="contact_us_contactno">
-         <div class="contact_info info_one">
-          <h2>Sundeep</h2>
-          <h2>+91  9686453774</h2>
-         </div>
-         <div class="contact_info info_two">
-          <h2>Akashdeep</h2>
-          <h2>+91  8617754839</h2>
-         </div>
-         <div class="contact_info info_three">
-          <h2>Masud</h2>
-          <h2>+91  70199 55395</h2>
-         </div>
+      <div class="col-12 m-0 p-0 style-end">
+        <div class="end-button" style="background-color: #4abd5938; cursor: pointer" data-dismiss="modal"
+          aria-label="Close" >
+          <a>Clear All</a>
+        </div>
+
+        
+
+        <ng-template #showOrigin>
+          <div class="end-button" style="background-color: #36ae46; cursor: pointer" data-dismiss="modal"
+            aria-label="Close" >
+            <a class="text-white">Apply Filter</a>
+          </div>
+        </ng-template>
       </div>
+    </div>
   </div>
+</div>
+</div>

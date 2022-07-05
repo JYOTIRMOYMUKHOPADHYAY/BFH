@@ -36,6 +36,15 @@
 
 .about_us_box {
   background-color: #604ca4;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+}
+.about_us_box_about {
+  background-color: #604ca4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .landing_image {
@@ -74,12 +83,12 @@
 }
 
 .header_body {
-  font-size: 25px;
+  font-size: 23px;
   //font-family: 'Raleway', sans-serif;
   color: white;
   margin-bottom: 30px;
   @media only screen and (max-width: 1440px) and (min-width: 1000px) {
-    font-size: 1.9vw ;
+    font-size: 2vw ;
     // font-weight: 700;
     line-height: 1.3;
 }
