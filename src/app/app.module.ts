@@ -13,6 +13,9 @@ import { HashLocationStrategy, LocationStrategy  } from '@angular/common';
 import { FooterComponent } from './commonComponent/footer/footer.component';
 import { NgxTimelineAlbeModule } from 'ngx-timeline-albe';
 import { ViewWebsiteButtonComponent } from './view-website-button/view-website-button.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from "@angular/common/http";
+import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +31,10 @@ import { ViewWebsiteButtonComponent } from './view-website-button/view-website-b
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxTimelineAlbeModule 
+    NgxTimelineAlbeModule ,
+    ReactiveFormsModule,
+    HttpClientModule,
+    SweetAlert2Module.forRoot()
   ],
   providers: [{provide : LocationStrategy , useClass: HashLocationStrategy}],
   schemas: [

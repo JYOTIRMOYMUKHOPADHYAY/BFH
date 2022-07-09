@@ -11,9 +11,9 @@
     </div>
     <div class="home_page_box">
        <div class="home_page_text">
-          <h2 class="header_textx">
+          <h1 class="header_textx">
              {{this.data['HEADER']}}
-          </h2>
+          </h1>
           <h3 class="header_text_tagline" style="color: white; font-weight: 100;letter-spacing: 9px; line-height: 2;">
             {{this.data['BANNER_TAGLINE']}}
          </h3>
@@ -24,21 +24,21 @@
  
 <div class="partner">
     <div class="partner_text_side">
-        <h1 class="header_text">{{this.data['HEADER']}}</h1>
-        <p class="body_text_partner">
+        <h2 class="header_text">{{this.data['HEADER']}}</h2>
+        <h5 class="body_text_partner">
             {{this.data['PARAGRAPH_ONE']}}
-        </p>
-        <p class="body_text_partner">
+        </h5>
+        <h5 class="body_text_partner">
             {{this.data['PARAGRAPH_TWO']}}
-        </p>
-        <p class="body_text_partner">
+        </h5>
+        <h5 class="body_text_partner">
             {{this.data['PARAGRAPH_THREE']}}
-        </p>
-        <p class="body_text_partner">
+        </h5>
+        <h5 class="body_text_partner">
             {{this.data['PARAGRAPH_FOUR']}}
-        </p>
+        </h5>
         <div>
-          <app-view-website-button></app-view-website-button>
+          <app-view-website-button (click)="redirectTO(this.data['INDIVIDUAL_LINK'])"></app-view-website-button>
         </div>
     </div>
     <div class="partner_image_side">

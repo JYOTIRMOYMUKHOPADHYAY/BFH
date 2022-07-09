@@ -26,7 +26,8 @@ export class commonClass {
         GALLARY_IMAGE_FIVE: '../../../assets/gallary/up_5.png',
         GALLARY_IMAGE_SIX: '../../../assets/gallary/up_6.png',
         GALLARY_IMAGE_SEVEN: '../../../assets/gallary/up_7.png',
-        GALLARY_IMAGE_EIGHT: '../../../assets/gallary/up_8.png'
+        GALLARY_IMAGE_EIGHT: '../../../assets/gallary/up_8.png',
+        INDIVIDUAL_LINK: 'https://unclepeterspancakes.com/'
     }
 
     public static CHAINAAMA = {
@@ -61,7 +62,8 @@ export class commonClass {
         GALLARY_IMAGE_FIVE: '../../../assets/gallary/c_5.png',
         GALLARY_IMAGE_SIX: '../../../assets/gallary/c_6.png',
         GALLARY_IMAGE_SEVEN: '../../../assets/gallary/c_7.png',
-        GALLARY_IMAGE_EIGHT: '../../../assets/gallary/c_8.png'
+        GALLARY_IMAGE_EIGHT: '../../../assets/gallary/c_8.png',
+        INDIVIDUAL_LINK: '#'
     }
     public static BETWEEN_THE_BREAD = {
         key:2,
@@ -86,7 +88,8 @@ export class commonClass {
         GALLARY_IMAGE_FIVE: '../../../assets/gallary/c_5.png',
         GALLARY_IMAGE_SIX: '../../../assets/gallary/c_6.png',
         GALLARY_IMAGE_SEVEN: '../../../assets/gallary/c_7.png',
-        GALLARY_IMAGE_EIGHT: '../../../assets/gallary/c_8.png'
+        GALLARY_IMAGE_EIGHT: '../../../assets/gallary/c_8.png',
+        INDIVIDUAL_LINK: '#'
     }
     public static MAGGINATION = {
         key:3,
@@ -103,7 +106,7 @@ export class commonClass {
         IMAGE_FOUR: '../../../assets/partner_22.png',
         MENU_IMAGE: '../../../assets/menu_maggination.png',
         BANNER_IMAGE: '../../../assets/homePage/image-removebg-preview.png',
-        BANNER_TAGLINE:"SOMETHING ABOUT MAGGINATION",
+        BANNER_TAGLINE:"",
         BANNER_BACKGROUND: '',
         GALLARY_IMAGE_ONE: '../../../assets/gallary/c_1.png',
         GALLARY_IMAGE_TWO: '../../../assets/gallary/c_2.png',
@@ -112,7 +115,8 @@ export class commonClass {
         GALLARY_IMAGE_FIVE: '../../../assets/gallary/c_5.png',
         GALLARY_IMAGE_SIX: '../../../assets/gallary/c_6.png',
         GALLARY_IMAGE_SEVEN: '../../../assets/gallary/c_7.png',
-        GALLARY_IMAGE_EIGHT: '../../../assets/gallary/c_8.png'
+        GALLARY_IMAGE_EIGHT: '../../../assets/gallary/c_8.png',
+        INDIVIDUAL_LINK: '#'
     }
 
     public static THE_LASSI_PUB = {
@@ -138,7 +142,8 @@ export class commonClass {
         GALLARY_IMAGE_FIVE: '../../../assets/gallary/c_5.png',
         GALLARY_IMAGE_SIX: '../../../assets/gallary/c_6.png',
         GALLARY_IMAGE_SEVEN: '../../../assets/gallary/c_7.png',
-        GALLARY_IMAGE_EIGHT: '../../../assets/gallary/c_8.png'
+        GALLARY_IMAGE_EIGHT: '../../../assets/gallary/c_8.png',
+        INDIVIDUAL_LINK: '#'
     }
 
     public static SUB_SPOT = {
@@ -156,7 +161,7 @@ export class commonClass {
         IMAGE_THREE: '../../../assets/partner_30.png',
         IMAGE_FOUR: '../../../assets/partner_31.png',
         MENU_IMAGE: '../../../assets/menu_sub_spot.png',
-        BANNER_TAGLINE:"SOMTHING ABOUT SUB SPOT",
+        BANNER_TAGLINE:"",
         BANNER_IMAGE: '../../../assets/homePage/image-removebg-preview.png',
         BANNER_BACKGROUND: '',
         GALLARY_IMAGE_ONE: '../../../assets/gallary/c_1.png',
@@ -166,7 +171,8 @@ export class commonClass {
         GALLARY_IMAGE_FIVE: '../../../assets/gallary/c_5.png',
         GALLARY_IMAGE_SIX: '../../../assets/gallary/c_6.png',
         GALLARY_IMAGE_SEVEN: '../../../assets/gallary/c_7.png',
-        GALLARY_IMAGE_EIGHT: '../../../assets/gallary/c_8.png'
+        GALLARY_IMAGE_EIGHT: '../../../assets/gallary/c_8.png',
+        INDIVIDUAL_LINK: '#'
     }
 
     public static LOCATIONS_NAME = [

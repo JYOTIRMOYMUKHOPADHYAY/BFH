@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { TimelineItem } from 'ngx-timeline-albe';
 @Component({
   selector: 'app-about-us',
@@ -7,9 +7,16 @@ import { TimelineItem } from 'ngx-timeline-albe';
 })
 export class AboutUsComponent implements OnInit, AfterViewInit {
   data: Array<TimelineItem> | String;
+  @ViewChild('hello', { static: false }) divHello: ElementRef;
+  id: any = null;
   constructor() { }
 
   ngOnInit(): void {
+
+    this.id = setInterval(() => {
+      this.divHello.nativeElement.click();
+    }, 5000);
+
     this.data = `[ {
       "datetime": "2019-01-01",
       "body": [{
@@ -29,7 +36,7 @@ export class AboutUsComponent implements OnInit, AfterViewInit {
       "body": [
         {
           "tag": "h5",
-          "content": "inception of Chainaama and Uncle Peter's Pancakes and outlets opened in Goa and Bangalore."
+          "content": "Inception of Chainaama and Uncle Peter's Pancakes and outlets opened in Goa and Bangalore."
         }
       ]
     }, {
@@ -46,9 +53,20 @@ export class AboutUsComponent implements OnInit, AfterViewInit {
           "content": "Expansion into a total of 13 outlets across 7 cities pan India."
         }
       ]
+    },
+    {
+      "datetime": "2022-01-01",
+      "body": [{
+          "tag": "h5",
+          "content": "Expansion into a total of 22 outlets across 12 cities pan India."
+        }
+      ]
     }]`;
   }
   ngAfterViewInit() {
     console.log("oip")
  }
+ ngOnDestroy() {
+  clearInterval(this.id);
+}
 }

@@ -1,63 +1,63 @@
 .navbar-nav {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    background-color: #604ca4;
-    margin-top: 10px;
-    box-shadow: 3px 7px 9px;
-    letter-spacing:2px;
-    @media (max-width: 990px) {
-        justify-content: center;
-        align-items: center;
-    }
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: #604ca4;
+  margin-top: 10px;
+  box-shadow: 3px 7px 9px;
+  letter-spacing:2px;
+  @media (max-width: 990px) {
+      justify-content: center;
+      align-items: center;
+  }
 }
 
 .navbar {
-    position: absolute;
-    width: 100%;
-    z-index: 9;
+  position: absolute;
+  width: 100%;
+  z-index: 9;
 }
 
 ul li .nav-link {
-    font-size: 19px;
-    font-weight: 900;
-    color: white;
+  font-size: 19px;
+  font-weight: 900;
+  color: white;
 }
 
 ul li .dropdown-item {
-    font-size: 15px;
-    font-weight: 900;
-    // color: ;
+  font-size: 15px;
+  font-weight: 900;
+  // color: ;
 }
 
 ul li .active {
-    font-size: 20px;
-    color: rgb(255, 234, 114)
+  font-size: 20px;
+  color: rgb(255, 234, 114)
 }
 
 .dropdown-menu{
-    background-color: #604ca4;
-    padding: 20px;
-    box-shadow: 4px 3px 13px 1px;
+  background-color: #604ca4;
+  padding: 20px;
+  box-shadow: 4px 3px 13px 1px;
 }
 .dropdown-menu li{
-    border-bottom: 1px solid rgba(174, 174, 174, 0.231);
-    opacity: 0.8;
-  transition: 0.3s;
+  border-bottom: 1px solid rgba(174, 174, 174, 0.231);
+  opacity: 0.8;
+transition: 0.3s;
 }
 
 .dropdown-menu li:hover{
-    box-shadow: 0px 3px 5px;
-    background-color: #4b3b80;
-    opacity: 1;
-    color: black;
+  box-shadow: 0px 3px 5px;
+  background-color: #4b3b80;
+  opacity: 1;
+  color: black;
 
 }
 .dropdown-item:hover{
-    // color: black;
+  // color: black;
 }
 .dropdown-item{
-    color: white;
+  color: white;
 }
 a,
 a:link,
@@ -65,9 +65,8 @@ a:hover,
 a:visited,
 a:active,
 a:focus{
-   background-color: transparent; 
-}
-  
+ background-color: transparent; 
+} 
 // @media only screen and (min-width: 770px) {
 //     .navbar-nav:after {
 //         content:'';
@@ -113,7 +112,7 @@ a:focus{
   cursor: pointer;
   flex-shrink: 0;
 //   font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
-  font-size: 16px;
+  // font-size: 16px;
   font-weight: 500;
 //   height: 4rem;
   padding: 0 1.6rem;
@@ -195,7 +194,7 @@ a:focus{
 .contact-no{
   display: flex;
   justify-content: flex-start;
-  font-size: 20px;
+  // font-size: 20px;
   text-decoration: none;
   align-items: center;
 }

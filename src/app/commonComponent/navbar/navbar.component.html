@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light p-0" style="font-family: 'Raleway', sans-serif;">
+<nav class="navbar navbar-expand-lg navbar-light p-0" >
   <div class="container-fluid">
     <button class="button-36 navbar-toggler" role="button" type="button" data-bs-toggle="collapse"
       data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -16,7 +16,7 @@
           <a class="nav-link" [ngClass]="{'active' : aboutUsActive}" routerLink="/about-us">ABOUT US</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" [ngClass]="{'active' : partnersActive}" routerLink="/partners">BECAME OUR PARTNER</a>
+          <a class="nav-link" [ngClass]="{'active' : partnersActive}" routerLink="/partners">BECOME OUR PARTNER</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" [ngClass]="{'active' : brandsActive}" href="#" id="navbarDropdown"
@@ -31,12 +31,10 @@
             <li><a class="dropdown-item" routerLink="/brands/maggination">MAGGINATION</a> </li>
             <li><a class="dropdown-item" routerLink="/brands/the_lassi_pub">THE LASSI PUB</a> </li>
             <li><a class="dropdown-item" routerLink="/brands/sub_spot">SUB SPOT</a></li>
-            <li><a class="dropdown-item" data-bs-toggle="modal"
-              data-bs-target="#filterModal">SUB SPOT</a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" style="cursor: pointer;" [ngClass]="{'active' : partnersActive}" data-bs-toggle="modal"
+          <a class="nav-link" style="cursor: pointer;" [ngClass]="{'active' : contactusActive}" data-bs-toggle="modal"
             data-bs-target="#filterModal">CONTACT US</a>
         </li>
       </ul>
@@ -60,10 +58,14 @@
       <div style="overflow-y: scroll;">
         <div class="col-12 p-3">
 
-          <video autoplay muted onloadedmetadata="this.muted = true" oncanplay="this.play()" playsinline
+          <!-- <video autoplay muted onloadedmetadata="this.muted = true" oncanplay="this.play()" playsinline vm.videoloop = "loop"
             style="width: 100%; height: 100%;">
             <source src="../../../assets/vidd.mp4" type="video/mp4" />
             Browser not supported
+          </video> -->
+
+          <video autoplay id="bgvid" loop muted onloadedmetadata="this.muted = true" oncanplay="this.play()" style="width: 100%; height: 100%;">
+            <source src="../../../assets/vidd.mp4" type="video/mp4">
           </video>
           <!-- <img src="images2/twentytwo.png" alt="" width="394" height="255" /> -->
         </div>
@@ -72,7 +74,7 @@
         <div class="p-3">
           <div class="contact-no">
             <div class="unit-left" style="padding-top: 7px; color: #eda407;"><span class="icon fa fa-phone"></span></div>
-            <div class="unit-body"><a class="link-phone" href="tel:+91 86177 54839" style="text-decoration: none; color: black;">+91 86177 54839</a>
+            <div class="unit-body"><a class="link-phone" href="tel:+91 86177 54839" style="text-decoration: none; color: black;">+91 86177 54839</a>&nbsp;
               <a class="link-phone" href="tel:+91 96864 53774" style="text-decoration: none; color: black;">+91 96864 53774</a>
             </div>
           </div>

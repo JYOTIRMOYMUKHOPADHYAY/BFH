@@ -57,7 +57,7 @@
   }
 
   @media only screen and (max-width: 1070px) {
-    font-size: 18px;
+    //font-size: 18px;
   }
 
   @media only screen and (max-width: 650px) {
@@ -75,11 +75,12 @@
   margin-bottom: 15px;
 
   // @media only screen and (max-width: 650px) {
+  //   //font-size: 30px;
+  // }
+  // @media only screen and (max-width: 1049px) {
   //   font-size: 30px;
   // }
-  @media only screen and (max-width: 1000px) {
-    font-size: 30px;
-  }
+  
 }
 
 .header_body {
@@ -87,6 +88,7 @@
   //font-family: 'Raleway', sans-serif;
   color: white;
   margin-bottom: 30px;
+  font-weight: 500;
   @media only screen and (max-width: 1440px) and (min-width: 1000px) {
     font-size: 2vw ;
     // font-weight: 700;
@@ -112,34 +114,42 @@
 @media only screen and (max-width: 420px) {
     font-size: 4vw;
 }
+ 
+  // @media only screen and (max-width: 1049px) {
+  //   font-size: 16px;
+  // }
 }
 
 .core_values_header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #3e2e76;
 }
-
+.core_values_top{
+  // background-color: #3e2e76;
+  padding: 30px;
+}
 .core_values_header_name {
-  font-size: 55px;
+  // //font-size: 55px;
   font-weight: 600;
-  color: #604ca4;
+  color: #ffffff;
   //font-family: 'Raleway', sans-serif;
   // text-shadow: 3px 3px 4px #968c8c;
 
   @media only screen and (max-width: 1360px) and (min-width: 651px) {
-    font-size: 4vw;
+    //font-size: 4vw;
     // line-height: 30px;
   }
 
   @media only screen and (max-width: 650px) {
-    font-size: 30px;
+    //font-size: 30px;
     margin-bottom: 15px;
   }
 }
 
 .core_values_tag_line {
-  font-size: 50px;
+  // //font-size: 50px;
   padding: 2px;
   text-decoration: underline;
   text-underline-offset: 2px;
@@ -148,12 +158,12 @@
   //font-family: 'Raleway', sans-serif;
 
   @media only screen and (max-width: 1360px) and (min-width: 651px) {
-    font-size: 4vw;
+    //font-size: 4vw;
     // line-height: 30px;
   }
 
   @media only screen and (max-width: 650px) {
-    font-size: 15px;
+    //font-size: 15px;
     margin-bottom: 15px;
   }
 }
@@ -190,45 +200,30 @@
   padding-right: 25px;
 }
 
-.core_values_body_number h1 {
-  font-size: 2.5vw;
+.core_values_body_number h2 {
+  // //font-size: 2.5vw;
   color: #604ca4;
   font-weight: bold;
   
   @media only screen and (max-width: 700px) {
-    font-size: 8vw;
+    //font-size: 8vw;
   }
 }
 
-.core_values_body_text h3 {
-  font-size: 30px;
+.core_values_body_text h4 {
+  // //font-size: 30px;
   font-weight: 700;
   color: #595a5c;
-  //font-family: 'Raleway', sans-serif;
-  @media only screen and (max-width: 1360px) and (min-width: 701px) {
-    font-size: 2vw;
-    // line-height: 30px;
-  }
 
-  @media only screen and (max-width: 700px) {
-    font-size: 6vw;
-  }
 
 }
 
 .core_values_body_text,
-p {
-  font-size: 25px;
+h5 {
+  font-weight: 100 !important;
   color: #6e6a66;
   //font-family: 'Raleway', sans-serif;
-  @media only screen and (max-width: 1360px) and (min-width: 701px) {
-    font-size: 2vw;
-    // line-height: 30px;
-  }
 
-  @media only screen and (max-width: 700px) {
-    font-size: 4vw;
-  }
 }
 
 .core_values_body_two {
@@ -246,6 +241,7 @@ p {
   justify-content: center;
   align-items: center;
   background: #3e2e76;
+  margin: 30px;
 }
 
 .core_values_images {
@@ -283,6 +279,8 @@ p {
 
 .founder_details_text {
   text-align: center;
+  color: #999a9b;
+  font-weight: 100;
 }
 
 .founder_card {
@@ -364,7 +362,7 @@ p {
 :host ::ng-deep h5,
 .h5 {
   font-weight: 900;
-  font-size: 15px;
+  // //font-size: 15px;
 
 }
 
@@ -383,12 +381,12 @@ p {
 
 :host ::ng-deep #timeline-albe.vertical section .item article .body h5 {
   color: #604ca4;
-  font-size: 20px;
+  //font-size: 20px;
 }
 
 :host ::ng-deep #timeline-albe.vertical section .item .inverted .body h5 {
   color: #604ca4;
-  font-size: 20px;
+  //font-size: 20px;
 }
 
 :host ::ng-deep .atag-styleRemove {
@@ -415,4 +413,39 @@ p {
   @media only screen and (max-width: 700px) {
     flex-direction: column;
   }
+}
+.carosol_image{
+  display: flex;
+    justify-content: center;
+}
+.carosol_one{
+  width: 90%;
+}
+
+.carousel-control-prev-icon{
+  display: none;
+}
+.carousel-control-next-icon{
+  display: none;
+}
+.fa-arrow-right{
+  display: block;
+}
+.fa-arrow-left{
+  display: block;
+}
+@media screen and (max-width: 780px) {
+.carousel-control-prev-icon{
+  display: block;
+}
+.carousel-control-next-icon{
+  display: block;
+}
+
+.fa-arrow-right{
+  display: none;
+}
+.fa-arrow-left{
+  display: none;
+}
 }

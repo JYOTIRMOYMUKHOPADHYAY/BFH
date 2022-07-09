@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-brands',
@@ -8,7 +8,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class BrandsComponent implements OnInit {
   data: any = {};
-  constructor(private activatedRoute: ActivatedRoute) { }
+  constructor(private activatedRoute: ActivatedRoute, private route: Router) { }
 
   ngOnInit(): void {
     this.activatedRoute.data.subscribe(( hero ) => {
@@ -18,4 +18,9 @@ export class BrandsComponent implements OnInit {
     })
   }
 
+  redirectTO(data){
+    console.log(data);
+    // this.route.navigateByUrl(data)
+    window.open(data)
+  }
 }

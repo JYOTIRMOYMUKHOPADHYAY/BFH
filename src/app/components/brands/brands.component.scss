@@ -151,34 +151,34 @@
 }
 
 .partner_text_side .body_text_partner {
-  font-size: 25px;
+  //font-size: 25px;
   ////font-family: 'Raleway', sans-serif;
 
   // font-weight: 900;
   // text-shadow: 3px 4px #d2cece;
   // color: #4d3c85;
   @media only screen and (max-width: 1360px) and (min-width: 1000px) {
-    font-size: 1.6vw;
+    //font-size: 1.6vw;
     // line-height: 30px;
   }
 
   @media only screen and (max-width: 1000px) and (min-width: 850px) {
-    font-size: 1.7vw;
+    //font-size: 1.7vw;
     // line-height: 30px;
   }
 
   @media only screen and (max-width: 850px) and (min-width: 650px) {
-    font-size: 2.1vw;
+    //font-size: 2.1vw;
     // line-height: 30px;
   }
 
   @media only screen and (max-width: 650px) and (min-width: 150px) {
-    font-size: 3.2vw;
+    //font-size: 3.2vw;
     // line-height: 30px;
   }
 
   @media only screen and (max-width: 450px) {
-    font-size: 4vw;
+    //font-size: 4vw;
     // line-height: 30px;
   }
 }
@@ -341,7 +341,7 @@
 }
 
 .header_textx {
-  font-size: 90px;
+  font-size: 70px;
   font-weight: bold;
   color: white;
   ////font-family: 'Raleway', sans-serif;
@@ -366,19 +366,19 @@
   }
 
   // @media only screen and (max-width: 800px) and (min-width: 650px) {
-  //     font-size: 70px;
+      // font-size: 70px;
   //     line-height: 2;
   //     // font-weight: 700;
   // }
 
   // @media only screen and (max-width: 730px) and (min-width: 650px) {
-  //     font-size: 5.5vw;
+  //     //font-size: 5.5vw;
   //     line-height: 1.8;
   //     // font-weight: 700;
   // }
 
   // @media only screen and (max-width: 650px) {
-  //     font-size: 10vw;
+  //     //font-size: 10vw;
   //     line-height: 2;
   // }
 }
