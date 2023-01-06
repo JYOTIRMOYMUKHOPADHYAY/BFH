@@ -56,7 +56,7 @@ export class OurPartenerComponent implements OnInit {
           phonenumber: this.form.value.phonenumber
         }
       }
-      this.http.post("https://formspree.io/f/myyoavon", obj).subscribe(data => {
+      this.http.post("https://formspree.io/f/mknylkdy", obj).subscribe(data => {
         // console.log(data)
         this.form.reset();
         this.submitted = false;
