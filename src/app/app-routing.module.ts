@@ -6,6 +6,9 @@ import { BrandsComponent } from './components/brands/brands.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { HomeComponent } from './components/home/home.component';
 import { OurPartenerComponent } from './components/our-partener/our-partener.component';
+import { TermsConditionsComponent } from './terms-conditions/terms-conditions.component';
+import { PrivacyPoliciesComponent } from './privacy-policies/privacy-policies.component';
+import { CancellationComponent } from './cancellation/cancellation.component';
 
 const routes: Routes = [
   {path: "", component:HomeComponent},
@@ -15,6 +18,9 @@ const routes: Routes = [
   }},
   {path: "partners", component:OurPartenerComponent},
   {path: "contact-us", component:ContactUsComponent},
+  {path: "terms-and-conditions", component:TermsConditionsComponent},
+  {path: "privacy_policy", component:PrivacyPoliciesComponent},
+  {path: "cancellation_policy", component:CancellationComponent},
   // { path: 'customers', loadChildren: () => import('./brands/brands.module').then(m => m.BrandsModule) },
   {path: "**", redirectTo:""}
 

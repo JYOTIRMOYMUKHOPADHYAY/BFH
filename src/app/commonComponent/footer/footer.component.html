@@ -1,6 +1,6 @@
-  <!-- Site footer -->
-  <footer class="site-footer">
-    <!-- <div class="container">
+<!-- Site footer -->
+<footer class="site-footer">
+  <!-- <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-6">
           <h6>About</h6>
@@ -32,10 +32,16 @@
       </div>
       <hr>
     </div> -->
-    <div class="container">
+  <!-- <div class="container">
       <div class="row">
         <div class="col-md-8 col-sm-6 col-xs-12">
           <p class="copyright-text">Copyright &copy; Bogmalo Foods & Hospitality
+          </p> | 
+          <p class="copyright-text">Terms & Conditions
+          </p> |
+          <p class="copyright-text">Privacy Policies
+          </p> |
+          <p class="copyright-text">Return & Cancellation
           </p>
         </div>
  
@@ -48,5 +54,19 @@
           </ul>
         </div>
       </div>
-    </div>
- </footer>
+    </div> -->
+
+  <div class="footer-basic">
+    <footer>
+      <div class="social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a
+          href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+      <hr style="height:2px;border-width:0;color:gray;background-color:white">
+      <ul class="list-inline">
+        <li class="list-inline-item"><a routerLink="/terms-and-conditions">Terms & Conditions</a></li>
+        <li class="list-inline-item"><a routerLink="/privacy_policy">Privacy Policies</a></li>
+        <li class="list-inline-item"><a routerLink="/cancellation_policy">Return & Cancellation</a></li>
+      </ul>
+      <p class="copyright">Bogmalo Foods & Hospitality © {{val}}</p>
+    </footer>
+  </div>
+</footer>

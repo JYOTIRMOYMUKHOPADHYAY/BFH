@@ -16,6 +16,9 @@ import { ViewWebsiteButtonComponent } from './view-website-button/view-website-b
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from "@angular/common/http";
 import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
+import { TermsConditionsComponent } from './terms-conditions/terms-conditions.component';
+import { PrivacyPoliciesComponent } from './privacy-policies/privacy-policies.component';
+import { CancellationComponent } from './cancellation/cancellation.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +29,10 @@ import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
     ContactUsComponent,
     NavbarComponent,
     FooterComponent,
-    ViewWebsiteButtonComponent
+    ViewWebsiteButtonComponent,
+    TermsConditionsComponent,
+    PrivacyPoliciesComponent,
+    CancellationComponent
   ],
   imports: [
     BrowserModule,
